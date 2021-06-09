@@ -1,0 +1,49 @@
+.rule line {
+  stroke: #eee;
+  shape-rendering: crispEdges;
+}
+
+.rule line.axis {
+  stroke: #000;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+circle.line {
+  fill: #fff;
+}
+
+/* Overrides of labcommon */
+
+/* General */
+body, input, select {
+  background-color: #222;
+  color: #bbc;
+}
+
+/* Input */
+input:focus { background: #222; }
+input:hover { background: #333; }
+
+/* Links */
+a:link, a:visited { color: #4863a0; }
+
+a:hover, a:active
+{
+  color: #666;
+  background: #336;
+}
+
+.note { color: #f90; }
+/* Lab header */
+#logo {
+  background-image: url(/images/light_janelia_logo.png);
+}
+/* Error conditions */
+.errorbar {
+  background-color: #777;
+}

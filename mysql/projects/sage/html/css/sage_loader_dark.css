@@ -1,0 +1,65 @@
+/* Boxed area */
+div.boxed {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
+
+/* Scrolling */
+.scrollhead {
+  border:1px solid #ebf8fe;
+  width:1000px;
+  color: #ebf8fe;
+  background: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.scrollbar pre {
+  height:300px;
+  width:1000px;
+  overflow:scroll;
+  overflow-x:auto;
+  overflow-y:auto;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.scrollbox {
+  border:1px solid #ebf8fe;
+  width:1000px;
+}
+
+option:hover { background: #444; }
+
+/* Overrides of labcommon */
+
+/* General */
+body, input, select {
+  background-color: #222;
+  color: #bbc;
+}
+
+/* Input */
+input:focus { background: #222; }
+input:hover { background: #333; }
+
+/* Links */
+a:link, a:visited { color: #4863a0; }
+
+a:hover, a:active
+{
+  color: #666;
+  background: #336;
+}
+
+.note { color: #f90; }
+/* Lab header */
+#logo {
+  background-image: url(/images/light_janelia_logo.png);
+}
+/* Error conditions */
+.errorbar {
+  background-color: #777;
+}

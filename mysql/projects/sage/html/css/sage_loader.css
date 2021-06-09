@@ -1,0 +1,40 @@
+/* Query section */
+#querybox { max-width: 600px; }
+
+#queryitem {
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+/* Boxed area */
+div.boxed {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
+
+/* Scrolling */
+.scrollhead {
+  border:1px solid #666;
+  width:1000px;
+  background: #ebf8fe;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.scrollbar pre {
+  height:300px;
+  width:1000px;
+  overflow:scroll;
+  overflow-x:auto;
+  overflow-y:auto;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.scrollbox {
+  border:1px solid #666;
+  width:1000px;
+}

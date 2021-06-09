@@ -1,0 +1,33 @@
+-- ====================== --
+-- Apply User Privileges
+-- ====================== --
+
+-- SAGE
+GRANT ALL PRIVILEGES ON sage.* TO sageAdmin@'%' WITH GRANT OPTION;
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON sage.* TO sageApp@'%';
+GRANT SELECT,SHOW VIEW,EXECUTE ON sage.* TO sageRead@'%';
+
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON sage.* TO imageryApp@'%';
+
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON sage.* TO olympiadApp@'%';
+
+GRANT SELECT,SHOW VIEW ON sage.olympiad_lethality_vw TO sageOlympiad@'%';
+GRANT EXECUTE ON FUNCTION sage.getCvTermId TO sageOlympiad@'%';
+GRANT EXECUTE ON FUNCTION sage.putOlympiadLethality TO sageOlympiad@'%';
+
+-- SLEW
+GRANT ALL PRIVILEGES ON slew.* TO sageAdmin@'%' WITH GRANT OPTION;
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON slew.* TO sageApp@'%';
+GRANT SELECT,SHOW VIEW,EXECUTE ON slew.* TO sageRead@'%';
+-- GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON slew.* TO imageryApp@'%';
+-- GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON slew.* TO olympiadApp@'%';
+
+-- Larval SAGE
+GRANT ALL PRIVILEGES ON larval_sage.* TO larvalsageAdmin@'%' WITH GRANT OPTION;
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON larval_sage.* TO larvalsageApp@'%';
+GRANT SELECT,SHOW VIEW,EXECUTE ON larval_sage.* TO larvalsageRead@'%';
+
+-- FLEW
+GRANT ALL PRIVILEGES ON flew.* TO sageAdmin@'%' WITH GRANT OPTION;
+GRANT SELECT,INSERT,UPDATE,DELETE,EXECUTE,SHOW VIEW ON flew.* TO sageApp@'%';
+GRANT SELECT,SHOW VIEW,EXECUTE ON flew.* TO sageRead@'%';

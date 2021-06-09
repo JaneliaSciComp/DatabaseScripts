@@ -1,0 +1,8 @@
+#!/bin/bash
+# Run the two Perl scripts to generate files, move those files to JobManager's directory
+cd /home/pinerog/Projects/DatabaseScripts/mysql/projects/workorder/bin/
+perl people.pl
+cp People.csv /ldapimport/
+perl project.pl
+cp Project.csv /ldapimport/
+

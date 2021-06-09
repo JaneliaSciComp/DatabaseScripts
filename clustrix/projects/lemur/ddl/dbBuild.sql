@@ -1,0 +1,10 @@
+-- =================== --
+-- Create Schema
+-- =================== --
+CREATE SCHEMA ahrens_lemur;
+CREATE SCHEMA geci_lemur;
+CREATE SCHEMA looger_lemur;
+CREATE SCHEMA simpson_lemur;
+CREATE SCHEMA smith_lemur;
+CREATE SCHEMA sternson_lemur;
+CREATE SCHEMA zhang_lemur;

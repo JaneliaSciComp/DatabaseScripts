@@ -1,0 +1,898 @@
+Date,Dept,DeptCode,Subject,Units,rate
+10/1/2006,Eddy,093203,Primary storage (TB),2,624
+11/1/2006,Eddy,093203,Primary storage (TB),2,624
+11/1/2006,Betzig,093202,Primary storage (TB),1,624
+12/1/2006,Eddy,093203,Primary storage (TB),2,624
+12/1/2006,Betzig,093202,Primary storage (TB),1,624
+1/1/2007,Eddy,093203,Primary storage (TB),2,624
+1/1/2007,Betzig,093202,Primary storage (TB),1,624
+2/1/2007,Eddy,093203,Primary storage (TB),2,624
+2/1/2007,Betzig,093202,Primary storage (TB),1,624
+3/1/2007,Eddy,093203,Primary storage (TB),2,624
+3/1/2007,Betzig,093202,Primary storage (TB),1,624
+4/1/2007,Eddy,093203,Primary storage (TB),2,624
+4/1/2007,Betzig,093202,Primary storage (TB),1,624
+5/1/2007,Eddy,093203,Primary storage (TB),2,624
+5/1/2007,Betzig,093202,Primary storage (TB),1,624
+5/1/2007,Rubin,093205,Primary storage (TB),1,624
+6/1/2007,Eddy,093203,Primary storage (TB),2,624
+6/1/2007,Betzig,093202,Primary storage (TB),1,624
+6/1/2007,Rubin,093205,Primary storage (TB),1,624
+6/1/2007,Myers,093201,Primary storage (TB),1,624
+7/1/2007,Eddy,093203,Primary storage (TB),2,624
+7/1/2007,Betzig,093202,Primary storage (TB),1,624
+7/1/2007,Rubin,093205,Primary storage (TB),1,624
+7/1/2007,Myers,093201,Primary storage (TB),1,624
+8/1/2007,Eddy,093203,Primary storage (TB),2,624
+8/1/2007,Betzig,093202,Primary storage (TB),1,624
+8/1/2007,Rubin,093205,Primary storage (TB),1,624
+8/1/2007,Myers,093201,Primary storage (TB),1,624
+9/1/2007,Eddy,093203,Primary storage (TB),2,624
+9/1/2007,Betzig,093202,Primary storage (TB),3,624
+9/1/2007,Rubin,093205,Primary storage (TB),4,624
+9/1/2007,Svoboda,093204,Primary storage (TB),1,624
+9/1/2007,Myers,093201,Primary storage (TB),1,624
+9/1/2007,Simpson,093210,Primary storage (TB),1,624
+9/1/2007,Hess,093298,Primary storage (TB),1,624
+10/1/2007,Eddy,093203,Primary storage (TB),2,624
+10/1/2007,Betzig,093202,Primary storage (TB),3,624
+10/1/2007,Rubin,093205,Primary storage (TB),4,624
+10/1/2007,Svoboda,093204,Primary storage (TB),1,624
+10/1/2007,Myers,093201,Primary storage (TB),1,624
+10/1/2007,Simpson,093210,Primary storage (TB),1,624
+10/1/2007,Hess,093298,Primary storage (TB),1,624
+11/1/2007,Eddy,093203,Primary storage (TB),2,624
+11/1/2007,Betzig,093202,Primary storage (TB),5,624
+11/1/2007,Rubin,093205,Primary storage (TB),4,624
+11/1/2007,Svoboda,093204,Primary storage (TB),1,624
+11/1/2007,Myers,093201,Primary storage (TB),1,624
+11/1/2007,Simpson,093210,Primary storage (TB),1,624
+11/1/2007,Hess,093298,Primary storage (TB),1,624
+11/1/2007,Peng,093309,Primary storage (TB),1,624
+12/1/2007,Eddy,093203,Primary storage (TB),2,624
+12/1/2007,Betzig,093202,Primary storage (TB),5,624
+12/1/2007,Rubin,093205,Primary storage (TB),4,624
+12/1/2007,Svoboda,093204,Primary storage (TB),1,624
+12/1/2007,Myers,093201,Primary storage (TB),1,624
+12/1/2007,Simpson,093210,Primary storage (TB),1,624
+12/1/2007,Hess,093298,Primary storage (TB),1,624
+12/1/2007,Peng,093309,Primary storage (TB),1,624
+1/1/2008,Eddy,093203,Primary storage (TB),2,624
+1/1/2008,Betzig,093202,Primary storage (TB),5,624
+1/1/2008,Rubin,093205,Primary storage (TB),4,624
+1/1/2008,Svoboda,093204,Primary storage (TB),1,624
+1/1/2008,Myers,093201,Primary storage (TB),1,624
+1/1/2008,Simpson,093210,Primary storage (TB),1,624
+1/1/2008,Hess,093298,Primary storage (TB),3,624
+1/1/2008,Peng,093309,Primary storage (TB),1,624
+2/1/2008,Eddy,093203,Direct Attached storage (TB),1.2,1850
+2/1/2008,Eddy,093203,Secondary storage (TB),2,180
+2/1/2008,Eddy,093203,Servers,16,50
+2/1/2008,Myers,093201,Primary storage (TB),1,624
+2/1/2008,Myers,093201,Servers,1,50
+2/1/2008,Betzig,093202,Primary storage (TB),5,624
+2/1/2008,Karpova,093211,Primary storage (TB),1,624
+2/1/2008,Hess,093298,Primary storage (TB),3,624
+2/1/2008,Hess,093298,Servers,1,50
+2/1/2008,Sternson,093206,Servers,1,50
+2/1/2008,Looger,093209,Servers,1,50
+2/1/2008,Simpson,093210,Primary storage (TB),2,624
+2/1/2008,Simpson,093210,Servers,1,50
+2/1/2008,Truman,093212,Primary storage (TB),1,624
+2/1/2008,Rubin,093205,Primary storage (TB),5.5,624
+2/1/2008,Rubin,093205,Secondary storage (TB),1,180
+2/1/2008,Rubin,093205,Servers,1,50
+2/1/2008,Peng,093309,Primary storage (TB),1,624
+2/1/2008,Peng,093309,Servers,1,50
+2/1/2008,Svoboda,093204,Primary storage (TB),1,624
+2/1/2008,Svoboda,093204,Servers,1,50
+3/1/2008,Eddy,093203,Direct Attached storage (TB),1.2,1850
+3/1/2008,Eddy,093203,Secondary storage (TB),2,180
+3/1/2008,Eddy,093203,Servers,16,50
+3/1/2008,Myers,093201,Primary storage (TB),1,624
+3/1/2008,Myers,093201,Servers,1,50
+3/1/2008,Betzig,093202,Primary storage (TB),3,624
+3/1/2008,Betzig,093202,Secondary storage (TB),1,180
+3/1/2008,Karpova,093211,Primary storage (TB),1,624
+3/1/2008,Hess,093298,Primary storage (TB),4,624
+3/1/2008,Hess,093298,Servers,1,50
+3/1/2008,Sternson,093206,Servers,1,50
+3/1/2008,Looger,093209,Servers,1,50
+3/1/2008,Simpson,093210,Secondary storage (TB),8,180
+3/1/2008,Simpson,093210,Servers,1,50
+3/1/2008,Truman,093212,Primary storage (TB),1,624
+3/1/2008,Truman,093212,Servers,1,50
+3/1/2008,Rubin,093205,Primary storage (TB),6.5,624
+3/1/2008,Rubin,093205,Secondary storage (TB),1,180
+3/1/2008,Rubin,093205,Servers,3,50
+3/1/2008,Peng,093309,Primary storage (TB),2,624
+3/1/2008,Peng,093309,Secondary storage (TB),2,180
+3/1/2008,Peng,093309,Servers,1,50
+3/1/2008,Svoboda,093204,Primary storage (TB),1,624
+3/1/2008,Svoboda,093204,Servers,1,50
+4/1/2008,Eddy,093203,Direct Attached storage (TB),0.6,1850
+4/1/2008,Eddy,093203,Primary storage (TB),0.5,624
+4/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+4/1/2008,Eddy,093203,Servers,18,50
+4/1/2008,Myers,093201,Primary storage (TB),1,624
+4/1/2008,Myers,093201,Servers,1,50
+4/1/2008,Betzig,093202,Primary storage (TB),3,624
+4/1/2008,Betzig,093202,Secondary storage (TB),1,180
+4/1/2008,Karpova,093211,Primary storage (TB),1,624
+4/1/2008,Hess,093298,Primary storage (TB),2.5,624
+4/1/2008,Hess,093298,Secondary storage (TB),1,180
+4/1/2008,Hess,093298,Servers,1,50
+4/1/2008,Sternson,093206,Servers,1,50
+4/1/2008,Looger,093209,Servers,1,50
+4/1/2008,Simpson,093210,Secondary storage (TB),8,180
+4/1/2008,Simpson,093210,Servers,1,50
+4/1/2008,Truman,093212,Primary storage (TB),1.5,624
+4/1/2008,Truman,093212,Servers,1,50
+4/1/2008,Rubin,093205,Primary storage (TB),7.5,624
+4/1/2008,Rubin,093205,Secondary storage (TB),1,180
+4/1/2008,Rubin,093205,Servers,3,50
+4/1/2008,Peng,093309,Primary storage (TB),2,624
+4/1/2008,Peng,093309,Secondary storage (TB),2,180
+4/1/2008,Peng,093309,Servers,1,50
+4/1/2008,Svoboda,093204,Primary storage (TB),1.5,624
+4/1/2008,Svoboda,093204,Servers,1,50
+5/1/2008,Eddy,093203,Direct Attached storage (TB),0.6,1850
+5/1/2008,Eddy,093203,Primary storage (TB),0.5,624
+5/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+5/1/2008,Eddy,093203,Servers,18,50
+5/1/2008,Myers,093201,Primary storage (TB),1,624
+5/1/2008,Myers,093201,Servers,1,50
+5/1/2008,Betzig,093202,Primary storage (TB),3,624
+5/1/2008,Betzig,093202,Secondary storage (TB),1,180
+5/1/2008,Karpova,093211,Primary storage (TB),1,624
+5/1/2008,Hess,093298,Primary storage (TB),3,624
+5/1/2008,Hess,093298,Secondary storage (TB),2,180
+5/1/2008,Hess,093298,Servers,1,50
+5/1/2008,Sternson,093206,Servers,1,50
+5/1/2008,Looger,093209,Servers,1,50
+5/1/2008,Simpson,093210,Secondary storage (TB),8,180
+5/1/2008,Simpson,093210,Servers,1,50
+5/1/2008,Truman,093212,Primary storage (TB),2,624
+5/1/2008,Truman,093212,Servers,1,50
+5/1/2008,Rubin,093205,Primary storage (TB),7.5,624
+5/1/2008,Rubin,093205,Secondary storage (TB),1,180
+5/1/2008,Rubin,093205,Servers,3,50
+5/1/2008,Peng,093309,Primary storage (TB),2,624
+5/1/2008,Peng,093309,Secondary storage (TB),2,180
+5/1/2008,Peng,093309,Servers,1,50
+5/1/2008,Svoboda,093204,Primary storage (TB),2,624
+5/1/2008,Svoboda,093204,Servers,1,50
+5/1/2008,Fetter,093093,Primary storage (TB),1,624
+6/1/2008,Eddy,093203,Direct Attached storage (TB),0.6,1850
+6/1/2008,Eddy,093203,Primary storage (TB),0.5,624
+6/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+6/1/2008,Eddy,093203,Servers,18,50
+6/1/2008,Myers,093201,Primary storage (TB),1,624
+6/1/2008,Myers,093201,Servers,1,50
+6/1/2008,Betzig,093202,Primary storage (TB),3.5,624
+6/1/2008,Betzig,093202,Secondary storage (TB),1,180
+6/1/2008,Karpova,093211,Primary storage (TB),1.5,624
+6/1/2008,Hess,093298,Primary storage (TB),3,624
+6/1/2008,Hess,093298,Secondary storage (TB),4,180
+6/1/2008,Hess,093298,Servers,1,50
+6/1/2008,Sternson,093206,Servers,1,50
+6/1/2008,Looger,093209,Servers,1,50
+6/1/2008,Simpson,093210,Secondary storage (TB),8,180
+6/1/2008,Simpson,093210,Servers,1,50
+6/1/2008,Truman,093212,Primary storage (TB),3,624
+6/1/2008,Truman,093212,Servers,1,50
+6/1/2008,Rubin,093205,Primary storage (TB),7.5,624
+6/1/2008,Rubin,093205,Secondary storage (TB),1,180
+6/1/2008,Rubin,093205,Servers,3,50
+6/1/2008,Peng,093309,Primary storage (TB),2,624
+6/1/2008,Peng,093309,Secondary storage (TB),2,180
+6/1/2008,Peng,093309,Servers,1,50
+6/1/2008,Svoboda,093204,Primary storage (TB),2,624
+6/1/2008,Svoboda,093204,Secondary storage (TB),2,180
+6/1/2008,Svoboda,093204,Servers,1,50
+6/1/2008,Fetter,093093,Primary storage (TB),1,624
+7/1/2008,Betzig,093202,Primary storage (TB),3.5,624
+7/1/2008,Betzig,093202,Secondary storage (TB),1,180
+7/1/2008,Eddy,093203,Direct Attached storage (TB),0.6,1850
+7/1/2008,Eddy,093203,Primary storage (TB),0.5,624
+7/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+7/1/2008,Eddy,093203,Servers,18,50
+7/1/2008,Fetter,093093,Primary storage (TB),1,624
+7/1/2008,Hess,093298,Primary storage (TB),3,624
+7/1/2008,Hess,093298,Secondary storage (TB),4,180
+7/1/2008,Hess,093298,Servers,1,50
+7/1/2008,Jayaraman,093305,Primary storage (TB),1.5,624
+7/1/2008,Karpova,093211,Primary storage (TB),2,624
+7/1/2008,Looger,093209,Primary storage (TB),0.5,624
+7/1/2008,Looger,093209,Servers,1,50
+7/1/2008,Myers,093201,Primary storage (TB),1,624
+7/1/2008,Myers,093201,Servers,1,50
+7/1/2008,Peng,093309,Primary storage (TB),2,624
+7/1/2008,Peng,093309,Secondary storage (TB),2,180
+7/1/2008,Peng,093309,Servers,1,50
+7/1/2008,Reiser,093303,Primary storage (TB),1,624
+7/1/2008,Rubin,093205,Primary storage (TB),7.5,624
+7/1/2008,Rubin,093205,Secondary storage (TB),1,180
+7/1/2008,Rubin,093205,Servers,3,50
+7/1/2008,Simpson,093210,Secondary storage (TB),8,180
+7/1/2008,Simpson,093210,Servers,1,50
+7/1/2008,Sternson,093206,Servers,1,50
+7/1/2008,Svoboda,093204,Primary storage (TB),2.5,624
+7/1/2008,Svoboda,093204,Secondary storage (TB),2,180
+7/1/2008,Svoboda,093204,Servers,1,50
+7/1/2008,Truman,093212,Primary storage (TB),3,624
+7/1/2008,Truman,093212,Servers,1,50
+8/1/2008,Baker,093215,Primary storage (TB),1,624
+8/1/2008,Betzig,093202,Primary storage (TB),4,624
+8/1/2008,Betzig,093202,Secondary storage (TB),1,180
+8/1/2008,Chklovskii,093208,Primary storage (TB),1,624
+8/1/2008,Eddy,093203,Direct Attached storage (TB),0.6,1850
+8/1/2008,Eddy,093203,Primary storage (TB),0.5,624
+8/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+8/1/2008,Eddy,093203,Servers,18,50
+8/1/2008,Fetter,093093,Secondary storage (TB),5,180
+8/1/2008,Hess,093298,Primary storage (TB),3,624
+8/1/2008,Hess,093298,Secondary storage (TB),4,180
+8/1/2008,Hess,093298,Servers,1,50
+8/1/2008,Werner,093097,Secondary storage (TB),5,180
+8/1/2008,Jayaraman,093305,Primary storage (TB),3,624
+8/1/2008,Karpova,093211,Primary storage (TB),3,624
+8/1/2008,Looger,093209,Primary storage (TB),0.5,624
+8/1/2008,Looger,093209,Servers,1,50
+8/1/2008,Myers,093201,Primary storage (TB),1,624
+8/1/2008,Myers,093201,Servers,1,50
+8/1/2008,Peng,093309,Primary storage (TB),2,624
+8/1/2008,Peng,093309,Secondary storage (TB),2,180
+8/1/2008,Peng,093309,Servers,1,50
+8/1/2008,Reiser,093303,Primary storage (TB),1.5,624
+8/1/2008,Rubin,093205,Primary storage (TB),8,624
+8/1/2008,Rubin,093205,Secondary storage (TB),4,180
+8/1/2008,Rubin,093205,Servers,3,50
+8/1/2008,Simpson,093210,Secondary storage (TB),8,180
+8/1/2008,Simpson,093210,Servers,1,50
+8/1/2008,Sternson,093206,Servers,1,50
+8/1/2008,Svoboda,093204,Primary storage (TB),2.5,624
+8/1/2008,Svoboda,093204,Secondary storage (TB),2,180
+8/1/2008,Svoboda,093204,Servers,1,50
+8/1/2008,Truman,093212,Primary storage (TB),3,624
+8/1/2008,Truman,093212,Servers,1,50
+9/1/2008,Baker,093215,Primary storage (TB),1,624
+9/1/2008,Betzig,093202,Primary storage (TB),4,624
+9/1/2008,Betzig,093202,Secondary storage (TB),1,180
+9/1/2008,Chklovskii,093208,Primary storage (TB),1,624
+9/1/2008,Chklovskii,093208,Secondary storage (TB),2,180
+9/1/2008,Chklovskii,093208,System Engineer Time,4,80
+9/1/2008,Egnor,093308,Primary storage (TB),4,624
+9/1/2008,Eddy,093203,Direct Attached storage (TB),1,1850
+9/1/2008,Eddy,093203,Primary storage (TB),1,624
+9/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+9/1/2008,Eddy,093203,Servers,19,50
+9/1/2008,Eddy,093203,System Engineer Time,8,80
+9/1/2008,Fetter,093093,Secondary storage (TB),9,180
+9/1/2008,Fetter,093093,Servers,1,50
+9/1/2008,Imaging,093095,Primary storage (TB),3,624
+9/1/2008,Werner,093097,Secondary storage (TB),4,180
+9/1/2008,Jayaraman,093305,Primary storage (TB),3,624
+9/1/2008,Karpova,093211,Primary storage (TB),3,624
+9/1/2008,Looger,093209,Primary storage (TB),0.5,624
+9/1/2008,Looger,093209,Servers,1,50
+9/1/2008,Myers,093201,Primary storage (TB),1,624
+9/1/2008,Myers,093201,Servers,1,50
+9/1/2008,Peng,093309,Primary storage (TB),2,624
+9/1/2008,Peng,093309,Secondary storage (TB),2,180
+9/1/2008,Peng,093309,Servers,1,50
+9/1/2008,Reiser,093303,Primary storage (TB),3,624
+9/1/2008,Rubin,093205,Primary storage (TB),8,624
+9/1/2008,Rubin,093205,Secondary storage (TB),4,180
+9/1/2008,Rubin,093205,Servers,3,50
+9/1/2008,Simpson,093210,Secondary storage (TB),8,180
+9/1/2008,Simpson,093210,Servers,1,50
+9/1/2008,Sternson,093206,Servers,1,50
+9/1/2008,Svoboda,093204,Primary storage (TB),3,624
+9/1/2008,Svoboda,093204,Secondary storage (TB),2,180
+9/1/2008,Svoboda,093204,Servers,1,50
+9/1/2008,Theurich,093021,Servers,1,50
+9/1/2008,Theurich,093021,System Engineer Time,2,80
+9/1/2008,Truman,093212,Primary storage (TB),4,624
+9/1/2008,Truman,093212,Servers,1,50
+10/1/2008,Baker,093215,Primary storage (TB),1,624
+10/1/2008,Betzig,093202,Primary storage (TB),4,624
+10/1/2008,Betzig,093202,Secondary storage (TB),1,180
+10/1/2008,Chklovskii,093208,Primary storage (TB),3,624
+10/1/2008,Chklovskii,093208,Secondary storage (TB),1,180
+10/1/2008,Egnor,093308,Primary storage (TB),4,624
+10/1/2008,Eddy,093203,Direct Attached storage (TB),1,1850
+10/1/2008,Eddy,093203,Primary storage (TB),1.5,624
+10/1/2008,Eddy,093203,Secondary storage (TB),1.6,180
+10/1/2008,Eddy,093203,Servers,19,50
+10/1/2008,Eddy,093203,System Engineer Time,8,80
+10/1/2008,Fetter,093093,Secondary storage (TB),9,180
+10/1/2008,Fetter,093093,Servers,1,50
+10/1/2008,Hess,093298,Primary storage (TB),3,624
+10/1/2008,Hess,093298,Secondary storage (TB),4,180
+10/1/2008,Hess,093298,Servers,1,50
+10/1/2008,Imaging,093095,Primary storage (TB),4,624
+10/1/2008,Werner,093097,Secondary storage (TB),4,180
+10/1/2008,Jayaraman,093305,Primary storage (TB),3,624
+10/1/2008,Karpova,093211,Primary storage (TB),3,624
+10/1/2008,Looger,093209,Primary storage (TB),0.5,624
+10/1/2008,Looger,093209,Servers,1,50
+10/1/2008,Myers,093201,Primary storage (TB),1,624
+10/1/2008,Myers,093201,Servers,1,50
+10/1/2008,Peng,093309,Primary storage (TB),3,624
+10/1/2008,Peng,093309,Secondary storage (TB),2,180
+10/1/2008,Peng,093309,Servers,1,50
+10/1/2008,Peng,093309,System Engineer Time,2,80
+10/1/2008,Reiser,093303,Primary storage (TB),3,624
+10/1/2008,Royer,093400,Primary storage (TB),3,624,JVS001201
+10/1/2008,Rubin,093205,Primary storage (TB),8.5,624
+10/1/2008,Rubin,093205,Secondary storage (TB),4.5,180
+10/1/2008,Rubin,093205,Servers,3,50
+10/1/2008,Rubin,093205,System Engineer Time,2,80
+10/1/2008,Shank,093402,Primary storage (TB),1,624
+10/1/2008,Simpson,093210,Secondary storage (TB),8,180
+10/1/2008,Simpson,093210,Servers,1,50
+10/1/2008,Sternson,093206,Servers,1,50
+10/1/2008,Svoboda,093204,Primary storage (TB),3,624
+10/1/2008,Svoboda,093204,Secondary storage (TB),4.5,180
+10/1/2008,Svoboda,093204,Servers,1,50
+10/1/2008,Theurich,093021,Servers,1,50
+10/1/2008,Theurich,093021,System Engineer Time,8,80
+10/1/2008,Truman,093212,Primary storage (TB),4,624
+10/1/2008,Truman,093212,Secondary storage (TB),4,180
+10/1/2008,Truman,093212,Servers,1,50
+11/1/2008,Baker,093215,Primary storage (TB),1,624
+11/1/2008,Baker,093215,Servers,1,50
+11/1/2008,Betzig,093202,Primary storage (TB),4,624
+11/1/2008,Betzig,093202,Secondary storage (TB),1,180
+11/1/2008,Chklovskii,093208,Primary storage (TB),1.5,624
+11/1/2008,Chklovskii,093208,Secondary storage (TB),3,180
+11/1/2008,Chklovskii,093208,Servers,2,50
+11/1/2008,Egnor,093308,Primary storage (TB),4,624
+11/1/2008,Eddy,093203,Direct Attached storage (TB),1.6,1850
+11/1/2008,Eddy,093203,Primary storage (TB),1.5,624
+11/1/2008,Eddy,093203,Secondary storage (TB),2.6,180
+11/1/2008,Eddy,093203,Servers,19,50
+11/1/2008,Eddy,093203,System Engineer Time,8,80
+11/1/2008,Fetter,093093,Secondary storage (TB),8,180
+11/1/2008,Fetter,093093,Servers,1,50
+11/1/2008,Fetter,093093,System Engineer Time,2,80
+11/1/2008,Gustafsson,093216,Primary storage (TB),1,624
+11/1/2008,Hess,093298,Primary storage (TB),4,624
+11/1/2008,Hess,093298,Secondary storage (TB),5,180
+11/1/2008,Hess,093298,Servers,1,50
+11/1/2008,Imaging,093095,Primary storage (TB),4,624
+11/1/2008,Imaging,093095,System Engineer Time,2,80
+11/1/2008,Werner,093097,Secondary storage (TB),4,180
+11/1/2008,Jayaraman,093305,Primary storage (TB),3,624
+11/1/2008,Karpova,093211,Primary storage (TB),4,624
+11/1/2008,Leonardo,093213,Primary storage (TB),1,624
+11/1/2008,Looger,093209,Primary storage (TB),0.5,624
+11/1/2008,Looger,093209,Servers,1,50
+11/1/2008,Myers,093201,Primary storage (TB),1,624
+11/1/2008,Myers,093201,Servers,1,50
+11/1/2008,Peng,093309,Primary storage (TB),4,624
+11/1/2008,Peng,093309,Secondary storage (TB),2,180
+11/1/2008,Peng,093309,Servers,1,50
+11/1/2008,Peng,093309,System Engineer Time,2,80
+11/1/2008,Reiser,093303,Primary storage (TB),6,624
+11/1/2008,Royer,093400,Primary storage (TB),.5,624,JVS001201
+11/1/2008,Rubin,093205,Primary storage (TB),4,624
+11/1/2008,Rubin,093205,Secondary storage (TB),15.5,180
+11/1/2008,Rubin,093205,Servers,3,50
+11/1/2008,Rubin,093205,System Engineer Time,4,80
+11/1/2008,Shank,093402,Primary storage (TB),1,624
+11/1/2008,Simpson,093210,Secondary storage (TB),8,180
+11/1/2008,Simpson,093210,Servers,1,50
+11/1/2008,Sternson,093206,Servers,1,50
+11/1/2008,Svoboda,093204,Primary storage (TB),3,624
+11/1/2008,Svoboda,093204,Secondary storage (TB),4.5,180
+11/1/2008,Svoboda,093204,Servers,1,50
+11/1/2008,Theurich,093021,Servers,1,50
+11/1/2008,Tjian,093400,Primary storage (TB),3,624,JVS000601
+11/1/2008,Truman,093212,Primary storage (TB),4,624
+11/1/2008,Truman,093212,Secondary storage (TB),4,180
+11/1/2008,Truman,093212,Servers,1,50
+12/1/2008,Baker,093215,Primary storage (TB),1,624
+12/1/2008,Baker,093215,Servers,1,50
+12/1/2008,Betzig,093202,Primary storage (TB),4,624
+12/1/2008,Betzig,093202,Secondary storage (TB),1,180
+12/1/2008,Chklovskii,093208,Primary storage (TB),3.5,624
+12/1/2008,Chklovskii,093208,Secondary storage (TB),4,180
+12/1/2008,Chklovskii,093208,Servers,2,50
+12/1/2008,Eddy,093203,Direct Attached storage (TB),1.6,1850
+12/1/2008,Eddy,093203,Primary storage (TB),3,624
+12/1/2008,Eddy,093203,Secondary storage (TB),2.1,180
+12/1/2008,Eddy,093203,Servers,19,50
+12/1/2008,Eddy,093203,System Engineer Time,8,80
+12/1/2008,Egnor,093308,Primary storage (TB),4,624
+12/1/2008,Fetter,093093,Secondary storage (TB),8,180
+12/1/2008,Fetter,093093,Servers,1,50
+12/1/2008,Gustafsson,093216,Primary storage (TB),1,624
+12/1/2008,Hess,093298,Primary storage (TB),4,624
+12/1/2008,Hess,093298,Secondary storage (TB),5,180
+12/1/2008,Hess,093298,Servers,1,50
+12/1/2008,Imaging,093095,Primary storage (TB),4,624
+12/1/2008,Werner,093097,Secondary storage (TB),4,180
+12/1/2008,Jayaraman,093305,Primary storage (TB),3,624
+12/1/2008,Karpova,093211,Primary storage (TB),4,624
+12/1/2008,Leonardo,093213,Primary storage (TB),1,624
+12/1/2008,Looger,093209,Primary storage (TB),0.5,624
+12/1/2008,Looger,093209,Servers,1,50
+12/1/2008,Myers,093201,Primary storage (TB),1,624
+12/1/2008,Myers,093201,Servers,1,50
+12/1/2008,Peng,093309,Primary storage (TB),4,624
+12/1/2008,Peng,093309,Secondary storage (TB),5,180
+12/1/2008,Peng,093309,Servers,1,50
+12/1/2008,Peng,093309,System Engineer Time,8,80
+12/1/2008,Reiser,093303,Primary storage (TB),8,624
+12/1/2008,Royer,093400,Primary storage (TB),.5,624,JVS001201
+12/1/2008,Rubin,093205,Primary storage (TB),4,624
+12/1/2008,Rubin,093205,Secondary storage (TB),21,180
+12/1/2008,Rubin,093205,Servers,3,50
+12/1/2008,Rubin,093205,System Engineer Time,4,80
+12/1/2008,Shank,093402,Primary storage (TB),1,624
+12/1/2008,Simpson,093210,Secondary storage (TB),8,180
+12/1/2008,Simpson,093210,Servers,1,50
+12/1/2008,Smith,093400,Servers,1,50,JVS005100
+12/1/2008,Sternson,093206,Servers,1,50
+12/1/2008,Svoboda,093204,Primary storage (TB),3,624
+12/1/2008,Svoboda,093204,Secondary storage (TB),6.5,180
+12/1/2008,Svoboda,093204,Servers,1,50
+12/1/2008,Svoboda,093204,System Engineer Time,8,80
+12/1/2008,Theurich,093021,Servers,1,50
+12/1/2008,Tjian,093400,Primary storage (TB),1,624,JVS000601
+12/1/2008,Tjian,093400,Servers,1,50,JVS000601
+12/1/2008,Truman,093212,Primary storage (TB),5,624
+12/1/2008,Truman,093212,Secondary storage (TB),5,180
+12/1/2008,Truman,093212,Servers,1,50
+1/1/2009,Baker,093215,Primary storage (TB),1,624
+1/1/2009,Baker,093215,Servers,1,50
+1/1/2009,Betzig,093202,Primary storage (TB),4,624
+1/1/2009,Betzig,093202,Secondary storage (TB),1,180
+1/1/2009,Chklovskii,093208,Primary storage (TB),3.5,624
+1/1/2009,Chklovskii,093208,Secondary storage (TB),4,180
+1/1/2009,Chklovskii,093208,Servers,2,50
+1/1/2009,Chklovskii,093208,System Engineer Time,6,80
+1/1/2009,Eddy,093203,Primary storage (TB),4.1,624
+1/1/2009,Eddy,093203,Secondary storage (TB),3.6,180
+1/1/2009,Eddy,093203,Servers,20,50
+1/1/2009,Eddy,093203,System Engineer Time,4,80
+1/1/2009,Egnor,093308,Primary storage (TB),4,624
+1/1/2009,Fetter,093093,Secondary storage (TB),8,180
+1/1/2009,Fetter,093093,Servers,1,50
+1/1/2009,Gustafsson,093216,Primary storage (TB),1,624
+1/1/2009,Hess,093298,Primary storage (TB),4,624
+1/1/2009,Hess,093298,Secondary storage (TB),5,180
+1/1/2009,Hess,093298,Servers,1,50
+1/1/2009,Hess,093298,System Engineer Time,4,80
+1/1/2009,Imaging,093095,Primary storage (TB),4,624
+1/1/2009,Werner,093097,Secondary storage (TB),4,180
+1/1/2009,Jayaraman,093305,Primary storage (TB),3,624
+1/1/2009,Karpova,093211,Primary storage (TB),4,624
+1/1/2009,Kerr,093304,System Engineer Time,1,80
+1/1/2009,Leonardo,093213,Primary storage (TB),1,624
+1/1/2009,Looger,093209,Primary storage (TB),0.5,624
+1/1/2009,Looger,093209,Servers,1,50
+1/1/2009,Myers,093201,Primary storage (TB),1,624
+1/1/2009,Myers,093201,Servers,1,50
+1/1/2009,Peng,093309,Primary storage (TB),4,624
+1/1/2009,Peng,093309,Secondary storage (TB),6,180
+1/1/2009,Peng,093309,Servers,1,50
+1/1/2009,Reiser,093303,Primary storage (TB),8,624
+1/1/2009,Royer,093400,Primary storage (TB),.5,624,JVS001201
+1/1/2009,Rubin,093205,Primary storage (TB),4,624
+1/1/2009,Rubin,093205,Secondary storage (TB),20,180
+1/1/2009,Rubin,093205,Servers,3,50
+1/1/2009,Shank,093402,Primary storage (TB),1,624
+1/1/2009,Simpson,093210,Secondary storage (TB),8,180
+1/1/2009,Simpson,093210,Servers,1,50
+1/1/2009,Smith,093400,Servers,1,50,JVS005100
+1/1/2009,Sternson,093206,Servers,1,50
+1/1/2009,Svoboda,093204,Primary storage (TB),3,624
+1/1/2009,Svoboda,093204,Secondary storage (TB),6.5,180
+1/1/2009,Svoboda,093204,Servers,1,50
+1/1/2009,Theurich,093021,Servers,1,50
+1/1/2009,Theurich,093021,System Engineer Time,2,80
+1/1/2009,Tjian,093400,Primary storage (TB),1,624,JVS000601
+1/1/2009,Tjian,093400,Servers,1,50,JVS000601
+1/1/2009,Truman,093212,Primary storage (TB),5,624
+1/1/2009,Truman,093212,Secondary storage (TB),5,180
+1/1/2009,Truman,093212,Servers,1,50
+2/1/2009,Anderson,093400,System Engineer Time,1,80,JVS000901
+2/1/2009,Baker,093215,Primary storage (TB),1,624
+2/1/2009,Baker,093215,Servers,1,50
+2/1/2009,Betzig,093202,Primary storage (TB),4,624
+2/1/2009,Betzig,093202,Secondary storage (TB),2,180
+2/1/2009,Chklovskii,093208,Primary storage (TB),3.5,624
+2/1/2009,Chklovskii,093208,Secondary storage (TB),4,180
+2/1/2009,Chklovskii,093208,Servers,2,50
+2/1/2009,Chklovskii,093208,System Engineer Time,4,80
+2/1/2009,Eddy,093203,Primary storage (TB),4.1,624
+2/1/2009,Eddy,093203,Secondary storage (TB),3.6,180
+2/1/2009,Eddy,093203,Servers,20,50
+2/1/2009,Eddy,093203,System Engineer Time,8,80
+2/1/2009,Egnor,093308,Primary storage (TB),6,624
+2/1/2009,Egnor,093308,System Engineer Time,16,80
+2/1/2009,Fetter,093093,Secondary storage (TB),8,180
+2/1/2009,Fetter,093093,Servers,1,50
+2/1/2009,Gustafsson,093216,Primary storage (TB),1,624
+2/1/2009,Hess,093298,Primary storage (TB),4,624
+2/1/2009,Hess,093298,Secondary storage (TB),5,180
+2/1/2009,Hess,093298,Servers,1,50
+2/1/2009,Imaging,093095,Primary storage (TB),4,624
+2/1/2009,Werner,093097,Secondary storage (TB),4,180
+2/1/2009,Jayaraman,093305,Primary storage (TB),3,624
+2/1/2009,Karpova,093211,Primary storage (TB),4,624
+2/1/2009,Kerr,093304,System Engineer Time,1,80
+2/1/2009,Leonardo,093213,Primary storage (TB),1,624
+2/1/2009,Looger,093209,Primary storage (TB),0.5,624
+2/1/2009,Looger,093209,Servers,1,50
+2/1/2009,Myers,093201,Primary storage (TB),1,624
+2/1/2009,Myers,093201,Servers,1,50
+2/1/2009,Peng,093309,Primary storage (TB),4,624
+2/1/2009,Peng,093309,Secondary storage (TB),6,180
+2/1/2009,Peng,093309,Servers,1,50
+2/1/2009,Reiser,093303,Primary storage (TB),8,624
+2/1/2009,Royer,093400,Primary storage (TB),.5,624,JVS001201
+2/1/2009,Rubin,093205,Primary storage (TB),4,624
+2/1/2009,Rubin,093205,Secondary storage (TB),20.5,180
+2/1/2009,Rubin,093205,Servers,3,50
+2/1/2009,Shank,093402,Primary storage (TB),1.5,624
+2/1/2009,Shank,093402,System Engineer Time,4,80
+2/1/2009,Simpson,093210,Secondary storage (TB),8,180
+2/1/2009,Simpson,093210,Servers,1,50
+2/1/2009,Smith,093400,Servers,1,50,JVS005100
+2/1/2009,Sternson,093206,Servers,1,50
+2/1/2009,Svoboda,093204,Primary storage (TB),3,624
+2/1/2009,Svoboda,093204,Secondary storage (TB),12,180
+2/1/2009,Svoboda,093204,Servers,1,50
+2/1/2009,Theurich,093021,Servers,1,50
+2/1/2009,Tjian,093400,Primary storage (TB),1,624,JVS000601
+2/1/2009,Tjian,093400,Servers,1,50,JVS000601
+2/1/2009,Truman,093212,Primary storage (TB),5,624
+2/1/2009,Truman,093212,Secondary storage (TB),5,180
+2/1/2009,Truman,093212,Servers,1,50
+3/1/2009,Theurich,093021,Servers,1,50
+3/1/2009,Baker,093215,Primary storage (TB),1,624
+3/1/2009,Baker,093215,Secondary storage (TB),2,180
+3/1/2009,Baker,093215,Servers,1,50
+3/1/2009,Betzig,093202,Primary storage (TB),4,624
+3/1/2009,Betzig,093202,Secondary storage (TB),2,180
+3/1/2009,Chklovskii,093208,Primary storage (TB),4,624
+3/1/2009,Chklovskii,093208,Secondary storage (TB),4,180
+3/1/2009,Chklovskii,093208,Servers,2,50
+3/1/2009,Chklovskii,093208,System Engineer Time,4,80
+3/1/2009,Eddy,093203,Primary storage (TB),4.1,624
+3/1/2009,Eddy,093203,Secondary storage (TB),3.6,180
+3/1/2009,Eddy,093203,Servers,20,50
+3/1/2009,Eddy,093203,System Engineer Time,8,80
+3/1/2009,Egnor,093308,Primary storage (TB),6,624
+3/1/2009,Egnor,093308,Secondary storage (TB),4,180
+3/1/2009,Fetter,093093,Secondary storage (TB),0.4,180
+3/1/2009,Fetter,093093,Servers,1,50
+3/1/2009,George,093417,Secondary storage (TB),7.4,180,JVS001400
+3/1/2009,George,093417,Secondary storage (TB),0.2,180,JVS002900	
+3/1/2009,George,093416,Secondary storage (TB),6,180,JVS003900
+3/1/2009,George,093418,Secondary storage (TB),4.5,180,JVS002800
+3/1/2009,Gustafsson,093216,Primary storage (TB),1,624
+3/1/2009,Hess,093298,Primary storage (TB),4,624
+3/1/2009,Hess,093298,Secondary storage (TB),5,180
+3/1/2009,Hess,093298,Servers,1,50
+3/1/2009,Hess,093298,System Engineer Time,2,80
+3/1/2009,Imaging,093095,Primary storage (TB),4,624
+3/1/2009,Jayaraman,093305,Primary storage (TB),3,624
+3/1/2009,Karpova,093211,Primary storage (TB),4,624
+3/1/2009,Leonardo,093213,Primary storage (TB),1,624
+3/1/2009,Looger,093209,Primary storage (TB),0.5,624
+3/1/2009,Looger,093209,Servers,1,50
+3/1/2009,Myers,093201,Primary storage (TB),1,624
+3/1/2009,Myers,093201,Servers,1,50
+3/1/2009,Peng,093309,Primary storage (TB),4,624
+3/1/2009,Peng,093309,Secondary storage (TB),6,180
+3/1/2009,Peng,093309,Servers,1,50
+3/1/2009,Reiser,093303,Primary storage (TB),4,624
+3/1/2009,Reiser,093303,Secondary storage (TB),3,180
+3/1/2009,Royer,093400,Primary storage (TB),.5,624,JVS001201
+3/1/2009,Rubin,093205,Primary storage (TB),4,624
+3/1/2009,Rubin,093205,Secondary storage (TB),25.5,180
+3/1/2009,Rubin,093205,Servers,3,50
+3/1/2009,Shank,093402,Primary storage (TB),1.5,624
+3/1/2009,Simpson,093210,Secondary storage (TB),8,180
+3/1/2009,Simpson,093210,Servers,1,50
+3/1/2009,Smith,093400,Servers,1,50,JVS005100
+3/1/2009,Sternson,093206,Servers,1,50
+3/1/2009,Svoboda,093204,Primary storage (TB),5,624
+3/1/2009,Svoboda,093204,Secondary storage (TB),16,180
+3/1/2009,Svoboda,093204,Servers,1,50
+3/1/2009,Tjian,093400,Primary storage (TB),1,624,JVS000601
+3/1/2009,Tjian,093400,Servers,1,50,JVS000601
+3/1/2009,Truman,093212,Primary storage (TB),5,624
+3/1/2009,Truman,093212,Servers,1,50
+4/1/2009,Theurich,093021,Servers,1,50
+4/1/2009,Baker,093215,Primary storage (TB),1.5,624
+4/1/2009,Baker,093215,Secondary storage (TB),2,180
+4/1/2009,Baker,093215,Servers,1,50
+4/1/2009,Betzig,093202,Primary storage (TB),4,624
+4/1/2009,Betzig,093202,Secondary storage (TB),2,180
+4/1/2009,Chklovskii,093208,Primary storage (TB),4,624
+4/1/2009,Chklovskii,093208,Secondary storage (TB),4,180
+4/1/2009,Chklovskii,093208,Servers,2,50
+4/1/2009,Chklovskii,093208,System Engineer Time,2,80
+4/1/2009,Eddy,093203,Primary storage (TB),4.6,624
+4/1/2009,Eddy,093203,Secondary storage (TB),3.6,180
+4/1/2009,Eddy,093203,Servers,20,50
+4/1/2009,Eddy,093203,System Engineer Time,8,80
+4/1/2009,Egnor,093308,Primary storage (TB),6,624
+4/1/2009,Egnor,093308,Secondary storage (TB),4,180
+4/1/2009,Fetter,093093,Secondary storage (TB),0.4,180
+4/1/2009,Fetter,093093,Servers,1,50
+4/1/2009,George,093417,Secondary storage (TB),7.4,180,JVS001400
+4/1/2009,George,093417,Secondary storage (TB),0.2,180,JVS002900
+4/1/2009,George,093416,Secondary storage (TB),6,180,JVS003900
+4/1/2009,George,093418,Secondary storage (TB),4.5,180,JVS002800
+4/1/2009,Gustafsson,093216,Primary storage (TB),1,624
+4/1/2009,Hess,093298,Primary storage (TB),4,624
+4/1/2009,Hess,093298,Secondary storage (TB),5,180
+4/1/2009,Hess,093298,Servers,1,50
+4/1/2009,Imaging,093095,Primary storage (TB),4,624
+4/1/2009,Jayaraman,093305,Primary storage (TB),3,624
+4/1/2009,Karpova,093211,Primary storage (TB),4,624
+4/1/2009,Leonardo,093213,Primary storage (TB),1,624
+4/1/2009,Lee,093217,Secondary storage (TB),3,180
+4/1/2009,Lee,093217,System Engineer Time,2,80
+4/1/2009,Looger,093209,Primary storage (TB),0.5,624
+4/1/2009,Looger,093209,Servers,1,50
+4/1/2009,Meinerzhagen,093417,System Engineer Time,2,80,JVS001400
+4/1/2009,Myers,093201,Primary storage (TB),1,624
+4/1/2009,Myers,093201,Servers,1,50
+4/1/2009,Peng,093309,Primary storage (TB),4,624
+4/1/2009,Peng,093309,Secondary storage (TB),6,180
+4/1/2009,Peng,093309,Servers,1,50
+4/1/2009,Reiser,093303,Primary storage (TB),4,624
+4/1/2009,Reiser,093303,Secondary storage (TB),3,180
+4/1/2009,Riddiford,093302,Primary storage (TB),1,624
+4/1/2009,Royer,093400,Primary storage (TB),.5,624,JVS001201
+4/1/2009,Rubin,093205,Primary storage (TB),4,624
+4/1/2009,Rubin,093205,Secondary storage (TB),25.5,180
+4/1/2009,Rubin,093205,Servers,3,50
+4/1/2009,Shank,093402,Primary storage (TB),2.5,624
+4/1/2009,Simpson,093210,Secondary storage (TB),8,180
+4/1/2009,Simpson,093210,Servers,1,50
+4/1/2009,Smith,093400,Servers,1,50,JVS005100
+4/1/2009,Sternson,093206,Servers,1,50
+4/1/2009,Svoboda,093204,Primary storage (TB),5,624
+4/1/2009,Svoboda,093204,Secondary storage (TB),16,180
+4/1/2009,Svoboda,093204,Servers,1,50
+4/1/2009,Tjian,093400,Primary storage (TB),1,624,JVS000601
+4/1/2009,Tjian,093400,Servers,1,50,JVS000601
+4/1/2009,Truman,093212,Primary storage (TB),5,624
+4/1/2009,Truman,093212,Servers,1,50
+05/01/2009,adminfinance,093021,Servers,1,50,
+05/01/2009,baker,093215,Primary Storage (TB),2.5,624,
+05/01/2009,baker,093215,Secondary Storage (TB),9.0,180,
+05/01/2009,baker,093215,Servers,1,50,
+05/01/2009,betzig,093202,Primary Storage (TB),4.0,624,
+05/01/2009,betzig,093202,Secondary Storage (TB),3.0,180,
+05/01/2009,chklovskii,093208,Primary Storage (TB),4.0,624,
+05/01/2009,chklovskii,093208,Secondary Storage (TB),4.0,180,
+05/01/2009,chklovskii,093208,Servers,2,50,
+05/01/2009,eddy,093203,Primary Storage (TB),4.6,624,
+05/01/2009,eddy,093203,Secondary Storage (TB),3.6,180,
+05/01/2009,eddy,093203,Servers,20,50,
+05/01/2009,egnor,093308,Primary Storage (TB),6.0,624,
+05/01/2009,egnor,093308,Secondary Storage (TB),5.0,180,
+05/01/2009,elmicro,093093,Secondary Storage (TB),0.4,180,
+05/01/2009,elmicro,093093,Servers,1,50,
+05/01/2009,Fly EM,093417,Secondary Storage (TB),7.4,180,JVS001400
+05/01/2009,Fly EM,093417,Secondary Storage (TB),0.2,180,JVS002900
+05/01/2009,Fly Light,093416,Secondary Storage (TB),6.0,180,JVS003900
+05/01/2009,Fly Olympiad,093418,Secondary Storage (TB),4.5,180,JVS002800
+05/01/2009,gustafsson,093216,Primary Storage (TB),1.0,624,
+05/01/2009,hess,093298,Primary Storage (TB),4.0,624,
+05/01/2009,hess,093298,Secondary Storage (TB),5.0,180,
+05/01/2009,hess,093298,Servers,1,50,
+05/01/2009,imaging,093095,Secondary Storage (TB),4.0,180,
+05/01/2009,jayaraman,093305,Primary Storage (TB),3.0,624,
+05/01/2009,karpova,093211,Primary Storage (TB),4.0,624,
+05/01/2009,leonardo,093213,Primary Storage (TB),1.0,624,
+05/01/2009,looger,093209,Primary Storage (TB),0.5,624,
+05/01/2009,looger,093209,Servers,1,50,
+05/01/2009,myers,093201,Primary Storage (TB),1.0,624,
+05/01/2009,myers,093201,Servers,1,50,
+05/01/2009,Tzumin Lee,093217,Secondary Storage (TB),3.0,180,
+05/01/2009,peng,093309,Primary Storage (TB),4.0,624,
+05/01/2009,peng,093309,Secondary Storage (TB),6.0,180,
+05/01/2009,peng,093309,Servers,1,50,
+05/01/2009,reiser,093303,Primary Storage (TB),4.0,624,
+05/01/2009,reiser,093303,Secondary Storage (TB),3.0,180,
+05/01/2009,riddiford,093302,Primary Storage (TB),1.0,624,
+05/01/2009,royer,093400,Primary Storage (TB),0.5,624,JVS001201
+05/01/2009,rubin,093205,Primary Storage (TB),4.0,624,
+05/01/2009,rubin,093205,Secondary Storage (TB),27.0,180,
+05/01/2009,rubin,093205,Servers,3,50,
+05/01/2009,shank,093402,Primary Storage (TB),3.0,624,
+05/01/2009,simpson,093210,Secondary Storage (TB),9.0,180,
+05/01/2009,simpson,093210,Servers,1,50,
+05/01/2009,smith,093400,Servers,1,50,JVS005100
+05/01/2009,sternson,093206,Servers,1,50,
+05/01/2009,svoboda,093204,Primary Storage (TB),5.0,624,
+05/01/2009,svoboda,093204,Secondary Storage (TB),20.0,180,
+05/01/2009,svoboda,093204,Servers,1,50,
+05/01/2009,tjian,093218,Primary Storage (TB),1.0,624
+05/01/2009,tjian,093218,Servers,1,50
+05/01/2009,truman,093212,Primary Storage (TB),4.0,624,
+05/01/2009,truman,093212,Servers,1,50,
+5/1/2009,Meinerzhagen,093417,System Engineer Time,1,80,JVS001400
+5/1/2009,Eddy,093203,System Engineer Time,8,80
+5/1/2009,Peng,093309,System Engineer Time,4,80
+06/01/2009,adminfinance,093021,Servers,1,50,
+06/01/2009,baker,093215,Primary Storage (TB),2.5,624,
+06/01/2009,baker,093215,Secondary Storage (TB),11.0,180,
+06/01/2009,baker,093215,Servers,1,50,
+06/01/2009,betzig,093202,Primary Storage (TB),4.0,624,
+06/01/2009,betzig,093202,Secondary Storage (TB),3.0,180,
+06/01/2009,chklovskii,093208,Primary Storage (TB),4.0,624,
+06/01/2009,chklovskii,093208,Secondary Storage (TB),4.0,180,
+06/01/2009,chklovskii,093208,Servers,2,50,
+06/01/2009,eddy,093203,Primary Storage (TB),3.0,624,
+06/01/2009,eddy,093203,Secondary Storage (TB),3.6,180,
+06/01/2009,eddy,093203,Servers,20,50,
+06/01/2009,egnor,093308,Primary Storage (TB),1.0,624,
+06/01/2009,egnor,093308,Secondary Storage (TB),10.0,180,
+06/01/2009,elmicro,093093,Secondary Storage (TB),0.4,180,
+06/01/2009,elmicro,093093,Servers,1,50,
+06/01/2009,Fly EM,093417,Secondary Storage (TB),7.4,180,JVS001400
+06/01/2009,Fly EM,093417,Secondary Storage (TB),0.2,180,JVS002900
+06/01/2009,Fly Light,093416,Secondary Storage (TB),26.0,180,JVS003900
+06/01/2009,Fly Olympiad,093418,Secondary Storage (TB),6.0,180,JVS002800
+06/01/2009,gustafsson,093216,Primary Storage (TB),1.0,624,
+06/01/2009,hess,093298,Primary Storage (TB),4.0,624,
+06/01/2009,hess,093298,Secondary Storage (TB),5.0,180,
+06/01/2009,hess,093298,Servers,1,50,
+06/01/2009,imaging,093095,Secondary Storage (TB),5.0,180,
+06/01/2009,instrdesapp,093097,Servers,1,50,
+06/01/2009,jayaraman,093305,Primary Storage (TB),3.0,624,
+06/01/2009,karpova,093211,Primary Storage (TB),4.0,624,
+06/01/2009,leonardo,093213,Primary Storage (TB),1.0,624,
+06/01/2009,looger,093209,Primary Storage (TB),0.5,624,
+06/01/2009,looger,093209,Servers,1,50,
+06/01/2009,myers,093201,Primary Storage (TB),1.0,624,
+06/01/2009,myers,093201,Servers,1,50,
+06/01/2009,Tzumin Lee,093217,Secondary Storage (TB),3.0,180,
+06/01/2009,peng,093309,Primary Storage (TB),4.0,624,
+06/01/2009,peng,093309,Secondary Storage (TB),6.0,180,
+06/01/2009,peng,093309,Servers,2,50,
+06/01/2009,reiser,093303,Primary Storage (TB),3.0,624,
+06/01/2009,riddiford,093302,Primary Storage (TB),1.0,624,
+06/01/2009,royer,093400,Primary Storage (TB),0.5,624,JVS001201
+06/01/2009,rubin,093205,Primary Storage (TB),4.0,624,
+06/01/2009,rubin,093205,Secondary Storage (TB),7.0,180,
+06/01/2009,rubin,093205,Servers,3,50,
+06/01/2009,shank,093402,Primary Storage (TB),3.0,624,
+06/01/2009,simpson,093210,Secondary Storage (TB),9.0,180,
+06/01/2009,simpson,093210,Servers,1,50,
+06/01/2009,smith,093400,Servers,1,50,JVS005100
+06/01/2009,sternson,093206,Servers,1,50,
+06/01/2009,svoboda,093204,Primary Storage (TB),5.0,624,
+06/01/2009,svoboda,093204,Secondary Storage (TB),20.0,180,
+06/01/2009,svoboda,093204,Servers,1,50,
+06/01/2009,tjian,093218,Primary Storage (TB),1.0,624,
+06/01/2009,tjian,093218,Servers,1,50,
+06/01/2009,truman,093212,Primary Storage (TB),4.0,624,
+06/01/2009,truman,093212,Servers,1,50,
+06/01/2009,Zuker-Ofstad,093400,Secondary Storage (TB),6.0,180,JVS002401
+6/1/2009,Eddy,093203,System Engineer Time,8,80
+6/1/2009,Peng,093309,System Engineer Time,2,80
+07/01/2009,Zuker-Ofstad,093400,Primary Storage (TB),18.0,624,JVS002401
+07/01/2009,reiser,093303,Primary Storage (TB),18.0,-624,
+07/01/2009,adminfinance,093021,Servers,1,50,
+07/01/2009,baker,093215,Primary Storage (TB),5.0,624,
+07/01/2009,baker,093215,Secondary Storage (TB),14.0,180,
+07/01/2009,baker,093215,Servers,1,50,
+07/01/2009,betzig,093202,Primary Storage (TB),4.0,624,
+07/01/2009,betzig,093202,Secondary Storage (TB),3.0,180,
+07/01/2009,chklovskii,093208,Primary Storage (TB),4.0,624,
+07/01/2009,chklovskii,093208,Secondary Storage (TB),4.0,180,
+07/01/2009,chklovskii,093208,Servers,2,50,
+07/01/2009,eddy,093203,Primary Storage (TB),3.0,624,
+07/01/2009,eddy,093203,Secondary Storage (TB),3.6,180,
+07/01/2009,eddy,093203,Servers,20,50,
+07/01/2009,egnor,093308,Secondary Storage (TB),10.0,180,
+07/01/2009,elmicro,093093,Secondary Storage (TB),0.4,180,
+07/01/2009,elmicro,093093,Servers,1,50,
+07/01/2009,Fly EM,093417,Secondary Storage (TB),7.4,180,JVS001400
+07/01/2009,Fly EM,093417,Secondary Storage (TB),0.2,180,JVS002900
+07/01/2009,Fly Light,093416,Secondary Storage (TB),26.7,180,JVS003900
+07/01/2009,Fly Olympiad,093418,Secondary Storage (TB),6.0,180,JVS002800
+07/01/2009,gustafsson,093216,Primary Storage (TB),1.0,624,
+07/01/2009,hess,093298,Primary Storage (TB),4.0,624,
+07/01/2009,hess,093298,Secondary Storage (TB),5.0,180,
+07/01/2009,hess,093298,Servers,1,50,
+07/01/2009,imaging,093095,Secondary Storage (TB),5.0,180,
+07/01/2009,instrdesapp,093097,Servers,1,50,
+07/01/2009,jayaraman,093305,Primary Storage (TB),3.0,624,
+07/01/2009,karpova,093211,Primary Storage (TB),4.0,624,
+07/01/2009,leonardo,093213,Primary Storage (TB),1.0,624,
+07/01/2009,looger,093209,Primary Storage (TB),0.5,624,
+07/01/2009,looger,093209,Servers,1,50,
+07/01/2009,myers,093201,Primary Storage (TB),1.0,624,
+07/01/2009,myers,093201,Servers,1,50,
+07/01/2009,Tzumin Lee,093217,Secondary Storage (TB),4.0,180,
+07/01/2009,peng,093309,Primary Storage (TB),4.0,624,
+07/01/2009,peng,093309,Secondary Storage (TB),6.0,180,
+07/01/2009,peng,093309,Servers,2,50,
+07/01/2009,reiser,093303,Primary Storage (TB),3.0,624,
+07/01/2009,riddiford,093302,Primary Storage (TB),1.0,624,
+07/01/2009,royer,093400,Primary Storage (TB),1.0,624,JVS001201
+07/01/2009,rubin,093205,Primary Storage (TB),4.0,624,
+07/01/2009,rubin,093205,Secondary Storage (TB),7.0,180,
+07/01/2009,rubin,093205,Servers,3,50,
+07/01/2009,shank,093402,Primary Storage (TB),3.5,624,
+07/01/2009,simpson,093210,Secondary Storage (TB),9.0,180,
+07/01/2009,simpson,093210,Servers,1,50,
+07/01/2009,smith,093400,Servers,1,50,JVS005100
+07/01/2009,sternson,093206,Servers,1,50,
+07/01/2009,svoboda,093204,Primary Storage (TB),5.0,624,
+07/01/2009,svoboda,093204,Secondary Storage (TB),24.0,180,
+07/01/2009,svoboda,093204,Servers,1,50,
+07/01/2009,tjian,093218,Primary Storage (TB),1.0,624,
+07/01/2009,tjian,093218,Servers,1,50,
+07/01/2009,truman,093212,Primary Storage (TB),4.0,624,
+07/01/2009,truman,093212,Servers,1,50,
+07/01/2009,Zuker-Ofstad,093400,Secondary Storage (TB),2.5,180,JVS002401
+08/01/2009,adminfinance,093021,Servers,1,50,
+08/01/2009,baker,093215,Primary Storage (TB),5.0,624,
+08/01/2009,baker,093215,Secondary Storage (TB),14.0,180,
+08/01/2009,baker,093215,Servers,1,50,
+08/01/2009,betzig,093202,Primary Storage (TB),4.0,624,
+08/01/2009,betzig,093202,Secondary Storage (TB),3.0,180,
+08/01/2009,chklovskii,093208,Primary Storage (TB),4.0,624,
+08/01/2009,chklovskii,093208,Secondary Storage (TB),4.0,180,
+08/01/2009,chklovskii,093208,Servers,2,50,
+08/01/2009,eddy,093203,Primary Storage (TB),3.0,624,
+08/01/2009,eddy,093203,Secondary Storage (TB),3.6,180,
+08/01/2009,eddy,093203,Servers,20,50,
+08/01/2009,egnor,093308,Secondary Storage (TB),10.0,180,
+08/01/2009,elmicro,093093,Secondary Storage (TB),0.4,180,
+08/01/2009,elmicro,093093,Servers,1,50,
+08/01/2009,Fly EM,093417,Secondary Storage (TB),7.4,180,JVS001400
+08/01/2009,Fly EM,093417,Secondary Storage (TB),0.2,180,JVS002900
+08/01/2009,Fly Light,093416,Secondary Storage (TB),26.7,180,JVS003900
+08/01/2009,Fly Olympiad,093418,Secondary Storage (TB),6.0,180,JVS002800
+08/01/2009,gustafsson,093216,Primary Storage (TB),1.0,624,
+08/01/2009,hess,093297,Primary Storage (TB),4.0,624,
+08/01/2009,hess,093297,Secondary Storage (TB),5.0,180,
+08/01/2009,hess,093297,Servers,1,50,
+08/01/2009,imaging,093095,Secondary Storage (TB),5.0,180,
+08/01/2009,instrdesapp,093097,Servers,1,50,
+08/01/2009,jayaraman,093305,Primary Storage (TB),3.0,624,
+08/01/2009,karpova,093211,Primary Storage (TB),4.0,624,
+08/01/2009,leonardo,093213,Primary Storage (TB),1.0,624,
+08/01/2009,looger,093209,Primary Storage (TB),0.5,624,
+08/01/2009,looger,093209,Servers,1,50,
+08/01/2009,myers,093201,Primary Storage (TB),1.0,624,
+08/01/2009,myers,093201,Servers,1,50,
+08/01/2009,Tzumin Lee,093217,Secondary Storage (TB),4.0,180,
+08/01/2009,peng,093309,Primary Storage (TB),4.0,624,
+08/01/2009,peng,093309,Secondary Storage (TB),6.0,180,
+08/01/2009,peng,093309,Servers,2,50,
+08/01/2009,reiser,093303,Primary Storage (TB),3.0,624,
+08/01/2009,riddiford,093302,Primary Storage (TB),1.0,624,
+08/01/2009,royer,093400,Primary Storage (TB),1.0,624,JVS001201
+08/01/2009,rubin,093205,Primary Storage (TB),4.0,624,
+08/01/2009,rubin,093205,Secondary Storage (TB),7.0,180,
+08/01/2009,rubin,093205,Servers,3,50,
+08/01/2009,shank,093402,Primary Storage (TB),3.5,624,
+08/01/2009,simpson,093210,Secondary Storage (TB),9.0,180,
+08/01/2009,simpson,093210,Servers,1,50,
+08/01/2009,smith,093400,Servers,1,50,JVS005100
+08/01/2009,sternson,093206,Servers,1,50,
+08/01/2009,svoboda,093204,Primary Storage (TB),5.0,624,
+08/01/2009,svoboda,093204,Secondary Storage (TB),24.0,180,
+08/01/2009,svoboda,093204,Servers,1,50,
+08/01/2009,tjian,093218,Primary Storage (TB),1.0,624,
+08/01/2009,tjian,093218,Servers,1,50,
+08/01/2009,truman,093212,Primary Storage (TB),4.0,624,
+08/01/2009,truman,093212,Servers,1,50,
+08/01/2009,Zuker-Ofstad,093400,Secondary Storage (TB),2.5,180,JVS002401

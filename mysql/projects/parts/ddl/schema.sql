@@ -1,0 +1,83 @@
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+DROP TABLE IF EXISTS `lab_group`;
+CREATE TABLE lab_group (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  create_date DATE NOT NULL,
+  update_date DATE NULL,
+  PRIMARY KEY(id),
+  UNIQUE INDEX lab_group_name_uk_ind (name)
+)
+ENGINE InnoDB;
+
+DROP TABLE IF EXISTS `engineer`;
+CREATE TABLE engineer (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  create_date DATE NOT NULL,
+  update_date DATE NULL,
+  PRIMARY KEY(id),
+  UNIQUE INDEX engineer_first_last_uk_ind (first_name,last_name)
+) 
+ENGINE INNODB;
+
+DROP TABLE IF EXISTS `project`;
+CREATE TABLE project (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  lab_group_id INTEGER UNSIGNED NOT NULL,
+  code VARCHAR(5) NOT NULL,
+  description VARCHAR(80) NOT NULL,
+  status  VARCHAR(50) NOT NULL,
+  create_date DATE NOT NULL,
+  update_date DATE NULL,
+  PRIMARY KEY(id),
+  UNIQUE INDEX project_code_uk_ind(code),
+  CONSTRAINT project_lab_group_id_fk FOREIGN KEY project_lab_group_id_fk_ind (lab_group_id) REFERENCES lab_group(id)
+) 
+ENGINE INNODB;
+
+DROP TABLE IF EXISTS `part`;
+CREATE TABLE part (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  engineer_id INTEGER UNSIGNED NOT NULL,
+  part_number VARCHAR(15) NOT NULL,  
+  revision INTEGER UNSIGNED ZEROFILL NOT NULL,
+  description VARCHAR(80) NOT NULL,
+  mode_file VARCHAR(50) NOT NULL,
+  create_date DATE NOT NULL,
+  update_date DATE NULL,
+  PRIMARY KEY(id),
+  UNIQUE INDEX part_number_revision_uk_ind(part_number,revision),
+  CONSTRAINT part_engineer_id_fk FOREIGN KEY part_engineer_id_fk_ind (engineer_id) REFERENCES engineer(id)
+) 
+ENGINE INNODB;
+
+DROP TABLE IF EXISTS `project_part`;
+CREATE TABLE project_part (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  project_id INTEGER UNSIGNED NOT NULL,
+  part_id INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(id),
+  UNIQUE INDEX project_part_uk_ind (project_id, part_id),
+  CONSTRAINT project_part_project_id_fk FOREIGN KEY project_part_project_id_fk_ind (project_id) REFERENCES project(id),
+  CONSTRAINT project_part_part_id_fk FOREIGN KEY project_part_part_id_fk_ind (part_id) REFERENCES part(id)
+) 
+ENGINE INNODB;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

@@ -1,0 +1,56 @@
+01/11/2007	JF-RK-TM0001	Post Adapter Base	JF-RK-TM0001B.pdf	01/16/2007	01/18/2007	
+01/08/2007	JF-RK-TM0002	Modified Thorlabs MB1012 Breadboard	JF-RK-TM0002C.pdf	01/08/2007	01/16/2007	01/29/2007
+01/12/2007	JF-RK-TM0003	Modified saia-burgess 195205-XXX plunger	JF-RK-TM0003A.pdf	01/16/2007		
+01/16/2007	JF-RK-TM0004	Solenoid Base Plate	JF-RK-TM0004A.pdf	03/01/2007		
+01/16/2007	JF-RK-TM0005	Solenoid Mount	JF-RK-TM0005.pdf			
+01/16/2007	JF-RK-TM0006	Rear Plunger Stop	JF-RK-TM0006A.pdf	03/01/2007		
+01/11/2007	JF-RK-TM0007	Post Adapter Mount	JF-RK-TM0007A.pdf	01/16/2007		
+01/12/2007	JF-RK-TM0008	Anchor for Spring	JF-RK-TM0008B.pdf	01/16/2007	03/01/2007	
+01/18/2007	JF-RK-TM0009	Petri Dish Support Ring	JF-RK-TM0009.pdf			
+01/17/2007	JF-RK-TM0010	Modified McMaster-Carr 97345A413 Shoulder Screw	JF-RK-TM0010A.pdf	03/15/2007		
+01/17/2007	JF-RK-TM0011	Base for Right-Angle Bracket	JF-RK-TM0011.pdf			
+01/17/2007	JF-RK-TM0012	Modified Thorlabs MS102 Right-Angle Bracket	JF-RK-TM0012.pdf			
+01/18/2007	JF-RK-TM0013	Quick-Release Lever	JF-RK-TM0013A.pdf	01/23/2007		
+01/18/2007	JF-RK-TM0014	Petri Dish Support Mount	JF-RK-TM0014.pdf			
+01/18/2007	JF-RK-TM0015	Semi-Adjustable Dish Stop	JF-RK-TM0015A.pdf	07/19/2007		
+01/24/2007	JF-RK-TM0016	Modification of Thorlabs RS6	JF-RK-TM0016.pdf			
+01/24/2007	JF-RK-TM0017	Modification of Thorlabs XE25A90	JF-RK-TM0017.pdf	
+01/25/2007	JF-RK-TM0018	Modification of Thorlabs XT34DPRL2	JF-RK-TM0018.pdf	
+02/02/2007	JF-RK-TM0019	Protective Plate for Power Supply	JF-RK-TM0019.pdf	
+02/08/2007	JF-RK-TM0020	Modification of Solenoid Base Plate	JF-RK-TM0020.pdf	
+04/02/2007	JF-RK-TM0021	Mounting Bracket for Basler A403k Camera	JF-RK-TM0021A.pdf	10/24/2007
+05/23/2007	JF-RK-TM0022	Solenoid Base Plate for Adjustable Tapper	JF-RK-TM0022.pdf	
+05/23/2007	JF-RK-TM0023	Solenoid Mount for Adjustable Tapper	JF-RK-TM0023.pdf	
+05/23/2007	JF-RK-TM0024	Rear Plunger Stop for Adjustable Tapper	JF-RK-TM0024.pdf	
+05/23/2007	JF-RK-TM0025	Anchor for Spring for Adjustable Tapper	JF-RK-TM0025.pdf	
+05/23/2007	JF-RK-TM0026	Solenoid Base Plate (Simple Adjustment)	JF-RK-TM0026.pdf	
+05/23/2007	JF-RK-TM0027	Solenoid Mount (Simple Adjustment)	JF-RK-TM0027.pdf	
+05/23/2007	JF-RK-TM0028	Rear Plunger Stop (Simple Adjustment)	JF-RK-TM0028.pdf	
+05/23/2007	JF-RK-TM0029	Anchor for Spring (Simple Adjustment)	JF-RK-TM0029.pdf	
+07/02/2007	JF-RK-TM0030	Solenoid Base Plate (for Adjustable Tapper with New Focus Stage)	JF-RK-TM0030A.pdf	07/02/2007
+07/03/2007	JF-RK-TM0031	Assembly Drawing of Tapper (Simple Adjustment)	JF-RK-TM0031.pdf	
+08/13/2007	JF-RK-TM0032	Protective Plate for 3.3-V Power Supply	JF-RK-TM0032.pdf	
+08/13/2007	JF-RK-TM0033	"Protective Plate for 15-V, 19-A Power Supply"	JF-RK-TM0033.pdf			
+09/25/2007	JF-RK-TM0034	Mounting Bracket for SI 3170 Camera	JF-RK-TM0034.pdf			
+09/27/2007	JF-RK-TM0035	Fixed-Height Single Petri Dish Holder Base	JF-RK-TM0035C.pdf	10/22/2007	10/25/2007	10/25/2007
+09/27/2007	JF-RK-TM0036	Petri Dish Registration Mount	JF-RK-TM0036.pdf			
+10/25/2007	JF-RK-TM0037	Shoulder Bolt Seat	JF-RK-TM0037.pdf	10/25/2007		
+10/25/2007	JF-RK-TM0038	Modification of Single Petri Dish Holder Base	JF-RK-TM0038A.pdf	10/25/2007		
+11/13/2007	JF-RK-TM0039	saia-burgess 195205-XXX plunger	JF-RK-TM0039.pdf			
+12/14/2007	JF-RK-TM0040	Again Modified Thorlabs MB1012 Breadboard	JF-RK-TM0040.pdf			
+12/20/2007	JF-RK-TM0041	Modified Thorlabs MB612 Breadboard	JF-RK-TM0041.pdf			
+01/08/2008	JF-RK-TM0042	Banana Plug Holder	JF-RK-TM0042.pdf			
+01/16/2008	JF-RK-TM0043	Reverse Engineered Diagnostic Instruments Post Holder	JF-RK-TM0043C.pdf	01/16/2008	01/16/2008	01/16/2008
+01/16/2008	JF-RK-TM0044	Reverse Engineered Diagnostic Instruments Post	JF-RK-TM0044.pdf			
+02/11/2008	JF-RK-TM0045	Heater Ring	JF-RK-TM0045.pdf			
+02/18/2008	JF-RK-TM0046	Solenoid Valve Mount	JF-RK-TM0046.pdf			
+02/18/2008	JF-RK-TM0047	BNC Wrench	JF-RK-TM0047.pdf			
+02/19/2008	JF-RK-TM0048	Mounting Bracket for DALSA Falcon 4M30 Camera	JF-RK-TM0048.pdf			
+02/22/2008	JF-RK-TM0049	Heater Ring with Wire Groove	JF-RK-TM0049.pdf
+02/26/2008	JF-RK-TM0050	Heater Ring Winding Crank	JF-RK-TM0050.pdf
+02/28/2008	JF-RK-TM0051	Modified Thorlabs MB6 Breadboard	JF-RK-TM0051.pdf
+02/29/2008	JF-RK-TM0052	Banana Plug Holder	JF-RK-TM0052.pdf
+03/03/2008	JF-RK-TM0053	DIN Rail Segment	JF-RK-TM0053.pdf
+10/29/2008	JF-RK-TM0054	Multi-Worm Tracker Assembly	JF-RK-TM0054.pdf
+10/31/2008	JF-RK-TM0055	Multi-Worm Tracker Electrical Terminal Labels	JF-RK-TM0055.pdf
+12/22/2008	JF-RK-TM0056	Quick-Release Lever (left-handed)	JF-RK-TM0056.pdf

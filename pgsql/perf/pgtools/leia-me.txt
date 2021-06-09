@@ -1,0 +1,97 @@
+======================================================================
+PGTOOLS - v0.1
+======================================================================
+
+HISTÓRICO
+=========
+Esta é a primeira versão do pacote PgTools, escrita para PostgreSQL,
+em português do Brasil.
+
+O desenvolvimento e testes foram feitos em um servidor Linux Debian,
+com kernel 2.4.x e PostgreSQL 7.3, 7.4, 8.0 e 8.1.
+
+Os scripts deste pacote foram desenvolvidos inicialmente devido à
+necessidade de se obter informações detalhadas em relação às bases
+de dados de uma instância e também informações detalhadas quanto
+ao processamento e consumo de recursos do sistema operacional pelo
+SGBD.
+
+A linguagem escolhida para o desenvolvimento dos scripts foi o Bash,
+tanto pela conviniência e recursos, quanto por estar disponível em
+todos os sistemas Linux mais utilizados.
+
+Esta primeira versão do pacote contém os seguintes arquivos:
+   pg_monitor_processos.sh
+   pg_monitor_tamanho.sh
+   leia-me.txt
+
+
+OBJETIVOS
+=========
+O script "pg_monitor_processos.sh" tem como finalidade exibir os
+processos executados no PostgreSQL, e o consumo de recursos destes
+no sistema operacional, exibindo além disto, quando for o caso, os
+arquivos temporários pelo SGBD (pgsql_tmp), que podem ser gerados
+quando da criação de índices e ordenações. Este script executa em
+loop em intervalos de 5 segundos até que seja interrompido (CTRL+C).
+
+O script "pg_monitor_tamanho.sh" tem como finalidade exibir dados
+da ocupação em disco pelas bases de dados de uma instância, bem co-
+mo a quantidade de bases de dados ativas (que aceitam conexões), a
+quantidade de arquivos dos logs de transação (WAL Logs) e o espaço
+ocupado pelos mesmos. Além disto, exibe informações das partições
+em disco. Este script executa uma vez a leitura e termina.
+
+A tendência é unificar estes scripts em um único arquivo, minimizan-
+do a redundância de código e melhor aproveitar alguns procedimentos.
+
+É intenção publicar uma versão futura em inglês e, após isto, estu-
+dar a publicação em outras línguas.
+
+
+INSTALAÇÃO
+==========
+Para instalar basta descomprimir e descompactar o arquivo do pacote
+e copiá-lo para um local onde o usuário "postgres" (ou outro usado
+para administração do SGBD) tenha acesso para execução e leitura.
+Sugiro "/usr/local/".
+
+Comando(s):
+   tar -jxpvf pgtools-0.1.tar.bz2
+   cp -afv ./pgtools /usr/local/
+   chown -Rf postgres.postgres /usr/local/pgtools/
+   chmod -f 755 /usr/local/pgtools/*.sh
+
+Acrescente o caminho para o diretório do pgtools na sua variável PATH,
+caso seja de sua conviniência.
+
+
+REMOÇÃO
+=======
+Para remover o pacote, basta remover o diretório de localização dos
+arquivos do pgtools.
+
+Comando(s):
+   rm -rf /usr/local/pgtools/
+
+
+USO
+===
+Para usar, deve-se estar logado no sistema operacional como usuário
+"postgres" (ou outro usado para administração do SGBD) e executar o
+script desejado.
+
+Comando(s):
+   cd /usr/local/pgtools/
+   sh pg_monitor_processos.sh
+   (ou)
+   sh pg_monitor_tamanho.sh
+
+
+Sugestões são bem vindas! Para contribuir, favor acessar a lista do
+projeto no site "http://www.pgfoundry.org".
+
+Bom proveito!
+
+              Guilherme Augusto da Rocha Silva
+                Brasil, 28 de abril de 2006.

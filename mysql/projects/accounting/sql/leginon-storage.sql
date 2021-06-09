@@ -1,0 +1,1 @@
+select projects.name, round(sum(bytes)/1024/1024/1024,2) as TB from projects join projectexperiments using (projectId) join leginon_storage on (projectexperiments.name=session) group by projects.name;

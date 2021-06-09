@@ -1,0 +1,27 @@
+
+Usage: ./pgfouine.php -file <file> [-top <n>] [-format <format>] [-logtype <logtype>] [-report [outputfile=]<block1,block2>]
+  -file <file>                           log file to analyze
+  -                                      read the log from stdin instead of -file
+  -top <n>                               number of queries in lists. Default is 20.
+  -format <format>                       output format: html, html-with-graphs or text. Default is html.
+  -logtype <logtype>                     log type: syslog or stderr. Default is syslog.
+                                          for stderr, you have to use the following log_line_prefix: '%t [%p]: [%l-1] '
+  -report [outputfile=]<block1,block2>   list of report blocks separated by a comma
+                                         report blocks can be: overall, hourly, bytype, slowest, n-mosttime,
+                                          n-mostfrequent, n-slowestaverage, history, n-mostfrequenterrors,
+                                          tsung
+                                         you can add several -report options if you want to generate several reports at once
+  -examples <n>                          maximum number of examples for a normalized query
+  -onlyselect                            ignore all queries but SELECT
+  -from "<date>"                         ignore lines logged before this date (uses strtotime)
+  -to "<date>"                           ignore lines logged after this date (uses strtotime)
+  -database <database>                   consider only queries on this database
+  -user <user>                           consider only queries executed by this user
+  -keepformatting                        keep the formatting of the query
+  -durationunit <s|ms>                   unit used to display the durations. Default is s(econds).
+  -title <title>                         define the title of the reports
+  -syslogident <ident>                   PostgreSQL syslog identity. Default is postgres.
+  -memorylimit <n>                       PHP memory limit in MB. Default is 128.
+  -debug                                 debug mode
+  -profile                               profile mode
+  -help                                  this help

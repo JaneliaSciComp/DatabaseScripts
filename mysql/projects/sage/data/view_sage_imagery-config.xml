@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!-- Database configuration -->
+  <!--database connect="dbi:mysql:dbname=sage;host=db-dev" user="sageApp" pass="s@g3App" /-->
+  <database connect="dbi:mysql:dbname=sage;host=mysql3" user="sageApp" pass="s@g3App" />
+
+  <!-- Links -->
+  <link site="CRM map">http://chacrm.int.janelia.org/cgi-bin/crm_mapper.cgi?gene=</link>
+
+  <!-- Text transformations -->
+  <transformation key="uas_reporter" data="UAS reporter" />
+  <transformation key="created_by" data="Imaged by" />
+
+  <!-- Allowable imagery types -->
+  <type key="0" value="Choose imagery type..." lab="" />
+  <type key="baker_lab" value="Baker lines" lab="baker" />
+  <type key="baker_biorad" value="Baker BioRad-imaged lines" lab="baker" />
+  <type key="rubin_lab_external" value="Rubin lines (imaged outside JFRC)" lab="rubin" />
+  <type key="rubin_chacrm" value="Fly Light CRM screening" lab="rubin" />
+  <type key="flylight_collaborations" value="Fly Light Collaborations" lab="flylight" />
+  <type key="flylight_rd" value="Fly Light R&amp;D" lab="rubin" />
+  <type key="fly_olympiad_box" value="Fly Olympiad Box assay plots" lab="olympiad" />
+  <type key="fly_olympiad_fly_bowl" value="Fly Olympiad Fly Bowl assay plots" lab="olympiad" />
+  <type key="fly_olympiad_gap" value="Fly Olympiad Gap Crossing assay plots" lab="olympiad" />
+  <type key="fly_olympiad_trik" value="Fly Olympiad TriKinetics assay plots" lab="olympiad" />
+  <type key="larval_olympiad" value="Larval Olympiad assay plots" lab="larval_olympiad" />
+  <type key="leet_chacrm" value="Lee-imaged CRM lines" lab="leet" />
+  <type key="leet_discovery" value="Lee-imaged lineage discovery lines" lab="leet" />
+  <type key="simpson_antibodies" value="Simpson antibodies" lab="simpson" />
+  <type key="simpson_lab_grooming" value="Simpson Lab grooming" lab="simpson" />
+  <type key="truman_chacrm" value="Truman-imaged CRM lines" lab="truman" />
+  <type key="zlatic_peripheral" value="Zlatic peripheral lines" lab="zlatic" />
+  <type key="zlatic_medial" value="Truman (Zlatic medial projections)" lab="zlatic" />
+  <type key="zlatic_medial_hires" value="Truman (Zlatic medial hires projections)" lab="zlatic" />
+<!--
+  <type key="simpson_gal4" value="Simpson GAL4 lines" lab="simpson" />
+  <type key="simpson_gal4_larvae" value="Simpson GAL4 larval lines" lab="simpson" />
+  <type key="simpson_ihc_optimizing" value="Simpson immunohistochemistry optimizing" lab="simpson" />
+  <type key="simpson_brainbow" value="Simpson Brainbow" lab="simpson" />
+-->
+  <type key="simpson_waffles" value="Simpson Waffle lines" lab="simpson" />
+  <type key="simpson_lex" value="Simpson LexA lines" lab="simpson" />
+
+<!--
+  <type key="simpson-lab" value="Simpson Lab (general)" lab="simpson" />
+  <type key="simpson-gal4-larva-marta" value="Simpson GAL4 larval lines (M. Zlatic)" lab="simpson" />
+-->
+
+  <!-- Data query and display -->
+  <data type="baker_biorad">
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="baker_general" />
+    <image loc="http://img.int.janelia.org/baker-image/baker-secondary-data/spg.gif" />
+  </data>
+  <data type="baker_lab">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <query name="Tissue" id="tissue"/>
+    <query name="Gender" id="gender"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="baker_general" />
+    <image loc="http://img.int.janelia.org/baker-image/baker-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="flylight_collaborations">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line Name" id="line"/>
+    <query name="Stain antibody" id="stain_antibody"/>
+    <query name="Image class" id="class"/>
+    <query name="Gene" id="gene" table="image_gene_vw"/>
+    <query name="Objective" id="objective"/>
+    <query name="Channels" id="channels"/>
+    <query name="Organ" id="area"/>
+    <query name="Gender" id="gender"/>
+    <query name="Age" id="age"/>
+    <query name="Comment" id="comment" field='rlike'/>
+    <display template="%%primary%%&lt;br&gt;%%line_name%%&lt;br&gt;%%age%%&lt;br&gt;%%gender%%&lt;br&gt;%%stain_antibody%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%projection_ref_sum%%" hidden="1" />
+    <display template="%%projection_local_registered%%" />
+    <display template="%%translation%%" />
+    <designation type="rubin_general" />
+    <image loc="http://img.int.janelia.org/rubin-image/rubin-chacrm-secondary-data/spg.gif" />
+  </data>
+  <data type="flylight_rd">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Promoter" id="promoter"/>
+    <query name="Transcript" id="transcript"/>
+    <query name="Responder" id="responder"/>
+    <query name="Area" id="area"/>
+    <query name="L number" id="l_number"/>
+    <query name="Comment" id="comment" field='rlike'/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%projection_ref_sum%%" hidden="1" />
+    <display template="%%translation%%" />
+    <designation type="rubin_general" />
+    <image loc="http://img.int.janelia.org/rubin-image/rubin-chacrm-secondary-data/spg.gif" />
+  </data>
+  <data type="zlatic_peripheral">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <query name="Effector" id="effector"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%projection_reference%%" />
+    <designation type="zlatic_general" />
+    <image loc="http://img.int.janelia.org/zlatic-image/zlatic_peripheral-secondary-data/spg.gif" />
+  </data>
+  <data type="zlatic_medial">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <designation type="zlatic_medial" />
+    <image loc="http://img.int.janelia.org/zlatic-image/zlatic_peripheral-secondary-data/spg.gif" />
+  </data>
+  <data type="zlatic_medial_hires">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <designation type="zlatic_medial" />
+    <image loc="http://img.int.janelia.org/zlatic-image/zlatic_peripheral-secondary-data/spg.gif" />
+  </data>
+  <data type="rubin_chacrm">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Transformant" id="line"/>
+    <query name="Image class" id="class"/>
+    <query name="Gene" id="gene" table="image_gene_vw"/>
+    <query name="Objective" id="objective"/>
+    <query name="Channels" id="channels"/>
+    <query name="Organ" id="organ"/>
+    <query name="Gender" id="gender"/>
+    <query name="Age" id="age"/>
+    <display template="%%primary%%&lt;br&gt;%%gene%%&lt;br&gt;%%class%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%projection_ref_sum%%" hidden="1" />
+    <display template="%%projection_local_registered%%" />
+<!--    <display template="%%rotation%%&lt;br&gt;%%translation%%" /> -->
+    <display template="%%translation%%" />
+    <display template="%%robot_id%%" />
+    <designation type="rubin_general" />
+    <image loc="http://img.int.janelia.org/rubin-image/rubin-chacrm-secondary-data/spg.gif" />
+    <hide_stack value="1" />
+    <warning text="The images and other information presented on this page are the confidential, unpublished data of the Rubin Lab and the Fly Light Project Team." />
+  </data>
+  <data type="rubin_lab_external">
+    <view name="rubin_lab_external_vw" />
+    <query name="Line" id="line"/>
+    <query name="Disc" id="disc"/>
+    <query name="Age" id="age"/>
+    <query name="External Lab" id="external_lab"/>
+    <display template="%%stack_literal%%" />
+    <display template="%%stack_display%%" />
+    <image loc="http://img.int.janelia.org/rubin-image/rubin-chacrm-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_gal4">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <query name="Organ" id="organ"/>
+    <query name="Bits" id="bits_per_sample"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%projection_global_registered%%" />
+    <display template="%%projection_local_registered%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_lex">
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_gal4_larvae">
+    <query name="Line" id="line"/>
+    <query name="Bits" id="bits_per_sample"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson-gal4-larva-marta">
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;Translation: %%translation%%  %%medial%%" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_antibodies">
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_brainbow">
+    <query name="Line" id="line"/>
+    <query name="Bits" id="bits_per_sample"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_lab_grooming">
+    <query name="Line" id="line"/>
+    <display template="%%stack_literal%%" />
+    <display template="%%stack_display%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="fly_olympiad_fly_bowl">
+    <query name="Line" id="line"/>
+    <query name="Product" id="product"/>
+    <display template="%%stack_literal%%&lt;br&gt;%%product%%" />
+    <display template="%%stack_display%%" />
+    <designation type="olympiad_bowl" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="fly_olympiad_box">
+    <query name="Line" id="line"/>
+    <display template="%%stack_literal%%&lt;br&gt;%%product%%" />
+    <display template="%%stack_display%%" />
+    <designation type="olympiad_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="fly_olympiad_gap">
+    <query name="Line" id="line"/>
+    <display template="%%stack_literal%%&lt;br&gt;%%product%%" />
+    <display template="%%stack_display%%" />
+    <designation type="olympiad_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="fly_olympiad_trik">
+    <query name="Line" id="line"/>
+    <display template="%%stack_literal%%&lt;br&gt;%%product%%" />
+    <display template="%%stack_display%%" />
+    <designation type="olympiad_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="larval_olympiad">
+    <query name="Line" id="line"/>
+    <query name="Measurement" id="measurement"/>
+    <query name="Product" id="product"/>
+    <display template="%%stack_literal%%&lt;br&gt;%%product%%" />
+    <display template="%%stack_display%%" />
+    <designation type="olympiad_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson-lab">
+    <query name="Line" id="line"/>
+    <query name="Bits" id="bits_per_sample"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_ihc_optimizing">
+    <query name="Line" id="line"/>
+    <query name="Bits" id="bits_per_sample"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="simpson_waffles">
+    <query name="Line" id="line"/>
+    <display template="%%primary%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="simpson_general" />
+    <image loc="http://img.int.janelia.org/simpson-image/simpson-lab-secondary-data/spg.gif" />
+  </data>
+  <data type="leet_chacrm">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Transformant" id="line"/>
+    <query name="Gene" id="gene" table="image_gene_vw"/>
+    <query name="Organ" id="organ"/>
+    <query name="Gender" id="gender"/>
+    <query name="Age" id="age"/>
+    <query name="Heat shock" id="heat_shock_age"/>
+    <display template="%%primary%%&lt;br&gt;%%gene%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern1%%" />
+    <display template="%%projection_pattern2%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="leet_general" />
+    <image loc="http://img.int.janelia.org/leet-image/leet-chacrm-secondary-data/spg.gif" />
+  </data>
+  <data type="leet_discovery">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Line" id="line"/>
+    <display template="%%primary%%&lt;br&gt;%%gene%%" />
+    <display template="%%projection_all%%" />
+    <display template="%%projection_pattern1%%" />
+    <display template="%%projection_pattern2%%" />
+    <display template="%%rotation%%&lt;br&gt;%%translation%%" />
+    <designation type="leet_general" />
+    <image loc="http://img.int.janelia.org/leet-image/leet-discovery-secondary-data/spg.gif" />
+  </data>
+  <data type="truman_chacrm">
+    <query name="Capture date" id="capture_date" table="image_vw" sqlfilter="DATE(%%REPLACE%%)" />
+    <query name="Transformant" id="line" table="image_vw"/>
+    <query name="Gene" id="gene" table="image_gene_vw"/>
+    <display template="%%primary%%&lt;br&gt;%%gene%%" />
+    <display template="%%projection_green%%" />
+    <display template="%%projection_red%%" />
+    <display template="%%projection_blue%%" />
+    <display template="%%tiff%%&lt;br&gt;Rock: %%rock_green%% %%rock_red%% %%rock_blue%% &lt;br&gt;%%translation%%" />
+    <image loc="http://img.int.janelia.org/truman-image/truman_chacrm-secondary-data/spg.gif" />
+  </data>
+
+  <!-- Imagery designation -->
+  <imagery type="baker_general">
+    <projection_all display="GFP and fru channel" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(GFP/fru)"/>
+    <projection_pattern display="GFP channel only" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(GFP)" />
+    <substack_all display="GFP and fru channel" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern display="GFP channel only" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <rotation size="1024" />
+    <translation size="1024" />
+  </imagery>
+  <imagery type="rubin_general">
+    <projection_all display="Reference and pattern channel" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(reference/pattern)"/>
+    <projection_pattern display="Pattern channel only" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(pattern)" />
+    <projection_local_registered display="Registered pattern" thumbh="60" largew="1039" largeh="631" comment="(pattern registration)" />
+    <projection_ref_sum display="Reference channel sum" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(reference sum)" />
+    <substack_all display="Reference and pattern channel" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern display="Pattern channel only" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_ref_sum display="Reference channel sum" thumbw="100" thumbh="100" largew="1024" largeh="1024" comment="(reference sum)" />
+    <tiff display="TIFF" />
+    <rotation size="1024" />
+    <translation size="1024" />
+    <gene field="gene" />
+  </imagery>
+  <imagery type="rubin_lab_external">
+    <primary thumbw="60" thumbh="60" largew="512" largeh="512" />
+  </imagery>
+  <imagery type="olympiad_general">
+    <projection_all display="Plot" thumbw="100" thumbh="100" largew="1024" largeh="1024" comment="(plot)" />
+  </imagery>
+  <imagery type="olympiad_bowl">
+    <projection_all display="Plot" thumbh="100" largew="1024" comment="(plot)" />
+  </imagery>
+  <imagery type="simpson_general">
+    <projection_all display="Reference and pattern channel" thumbw="100" thumbh="100" largew="1024" largeh="1024" comment="(reference/pattern)" />
+    <projection_pattern display="Pattern channel only" thumbw="100" thumbh="100" largew="1024" largeh="1024" comment="(pattern)" />
+    <substack_all display="Reference and pattern channel" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern display="Pattern channel only" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <projection_global_registered display="Registered (global)" thumbh="100" largew="1039" largeh="631" comment="(global registration)" />
+    <substack_global_registered display="Registered (global)" thumbh="100" largew="1039" largeh="631" comment="(global registration)" />
+    <projection_local_registered display="Registered (local)" thumbh="100" largew="1039" largeh="631" comment="(local registration)" />
+    <substack_local_registered display="Registered (local)" thumbh="100" largew="1039" largeh="631" comment="(local registration)" />
+    <tiff display="TIFF" />
+    <rotation size="1024" />
+    <translation size="1024" />
+  </imagery>
+  <imagery type="simpson-gal4-larva-marta">
+    <projection_all display="Reference and pattern channel" thumbw="60" thumbh="60" largew="512" largeh="512" comment="(reference/pattern)" />
+    <projection_pattern display="Pattern channel only" thumbw="60" thumbh="60" largew="512" largeh="512" comment="(pattern)" />
+    <substack_all display="Reference and pattern channel" thumbw="100" thumbh="100" largew="512" largeh="512" />
+    <substack_pattern display="Pattern channel only" thumbw="100" thumbh="100" largew="512" largeh="512" />
+    <tiff display="TIFF" />
+    <rotation size="512" />
+    <translation display="(Z-stack)" size="512" />
+    <medial display="(Medial)" size="512" />
+  </imagery>
+  <imagery type="leet_general">
+    <projection_all display="Reference and pattern channel" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(reference/pattern)" />
+    <projection_pattern1 display="Pattern channel 1" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(pattern 1)" />
+    <projection_pattern2 display="Pattern channel 2" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(pattern 2)" />
+    <substack_all display="Reference and pattern channel" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern1 display="Pattern channel 1" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern2 display="Pattern channel 2" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <rotation size="1024" />
+    <translation size="1024" />
+    <gene field="gene" />
+  </imagery>
+  <imagery type="truman_chacrm">
+    <projection_green display="Green" thumbh="90" largew="1024" largeh="1024" comment="(green)" />
+    <projection_red display="Red" thumbh="90" largew="1024" largeh="1024" comment="(red)" />
+    <projection_blue display="Blue" thumbh="90" largew="1024" largeh="1024" comment="(blue)" />
+    <tiff display="TIFF" />
+    <rock_green display="(Green)" size="1024" />
+    <rock_red display="(Red)" size="1024" />
+    <rock_blue display="(Blue)" size="1024" />
+    <translation display="Z-stack" size="1024" />
+    <gene field="gene" />
+  </imagery>
+  <imagery type="zlatic_general">
+    <projection_all display="Reference and pattern" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(all)"/>
+    <projection_pattern display="Pattern channel only" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(pattern)" />
+    <projection_reference display="Reference channel only" thumbw="60" thumbh="60" largew="1024" largeh="1024" comment="(reference)" />
+  </imagery>
+  <imagery type="zlatic_medial">
+    <projection_all display="Composite" thumbh="90" largew="1024" largeh="1024" comment="(composite)"/>
+    <projection_pattern display="Green channel only" thumbh="90" largew="1024" largeh="1024" comment="(green)" />
+    <substack_all display="Composite" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+    <substack_pattern display="Green channel only" thumbw="100" thumbh="100" largew="1024" largeh="1024" />
+  </imagery>
+
+</configuration>

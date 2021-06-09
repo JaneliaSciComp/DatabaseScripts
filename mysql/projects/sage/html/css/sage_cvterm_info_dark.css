@@ -1,0 +1,81 @@
+/* Query section */
+#querybox { max-width: 600px; }
+
+#queryitem {
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+/* Boxed area */
+div.boxed {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
+
+/* Autocomplete */
+div.autocomplete {
+  position:absolute;
+  width:250px;
+  background-color:#333;
+  border:1px solid #bbc;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #0c406d;}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:0px;
+  height:18px;
+  cursor:pointer;
+  font-size: 10pt;
+}
+#cvterm { width: 300px; }
+
+/* jquery tablesorter */
+table.tablesorter tbody td {
+        color: #bbc;
+        padding: 4px;
+        background-color: #444;
+        vertical-align: top;
+}
+
+/* Overrides of labcommon */
+
+/* General */
+body, input, select {
+  background-color: #222;
+  color: #bbc;
+}
+
+/* Input */
+input:focus { background: #222; }
+input:hover { background: #333; }
+
+/* Links */
+a:link, a:visited { color: #4863a0; }
+
+a:hover, a:active
+{
+  color: #666;
+  background: #336;
+}
+
+.note { color: #f90; }
+/* Lab header */
+#logo {
+  background-image: url(/images/light_janelia_logo.png);
+}
+/* Error conditions */
+.errorbar {
+  background-color: #777;
+}

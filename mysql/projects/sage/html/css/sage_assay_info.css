@@ -1,0 +1,44 @@
+/* Query section */
+#querybox { max-width: 600px; }
+
+#queryitem {
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+/* Boxed area */
+div.boxed {
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
+
+/* Autocompletion */
+div.autocomplete {
+  position:absolute;
+  width:250px;
+  background-color:white;
+  border:1px solid #008;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ebf8fe;}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:0px;
+  height:18px;
+  cursor:pointer;
+  font-size: 10pt;
+}
+#cvterm { width: 300px; }
+.red { color: #ee3333; }
+.green { color: #33cc33; }

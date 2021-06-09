@@ -1,0 +1,15 @@
+Postgres Query Analyzer (PQA) is a little library to help you analyze the PostgreSQL query logs.  
+
+To use it, you'll need:
+Ruby - http://ruby-lang.org/
+PQA - http://pgfoundry.org/projects/pqa/
+
+and of course a PostgreSQL installation.
+
+There's an article I've about PQA written on DatabaseJournal.com:
+http://www.databasejournal.com/features/postgresql/article.php/3323561
+
+There's more documentation and a sample run here:
+http://pqa.projects.postgresql.org/
+
+Like PQA?  Buy Tom's completely unrelated book, "PMD Applied"!  http://pmdapplied.com/

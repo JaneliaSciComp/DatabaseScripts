@@ -1,0 +1,495 @@
+/usr/libexec/mysqld, Version: 3.23.52-log, started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+040607 15:22:11	      1 Connect     bugs@localhost on bugs
+		      1 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      1 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      1 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      1 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      1 Query       SELECT name FROM fielddefs
+		      1 Query       SELECT DISTINCT bugs.bug_id, bugs.groupset, bugs.bug_severity, bugs.priority, bugs.rep_platform, map_assigned_to.login_name, bugs.bug_status, bugs.resolution, bugs.short_desc FROM bugs, profiles map_assigned_to, profiles map_reporter LEFT JOIN profiles map_qa_contact ON bugs.qa_contact = map_qa_contact.userid LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND (bugs.bug_status = 'NEW' OR bugs.bug_status = 'ASSIGNED' OR bugs.bug_status = 'REOPENED') AND (bugs.product = 'COUGAAR') ORDER BY bugs.bug_status, bugs.priority, map_assigned_to.login_name, bugs.bug_id 
+		      1 Query       USE bugs
+		      1 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      1 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+040607 15:22:12	      1 Quit       
+040607 15:22:14	      2 Connect     bugs@localhost on bugs
+		      2 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      2 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      2 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      2 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      2 Query       SELECT bug_id FROM bugs WHERE bug_id = 13128
+		      2 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13128
+		      2 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      2 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      2 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      2 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      2 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13128
+    GROUP BY bugs.bug_id
+		      2 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13128 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		      2 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      2 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13128 ORDER BY attach_id
+            
+		      2 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13128 ORDER BY dependson
+		      2 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13128 ORDER BY blocked
+		      2 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		      2 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      2 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		      2 Query       select login_name from profiles where userid = 62
+		      2 Query       SELECT login_name,realname FROM profiles WHERE userid = 62
+		      2 Query       SELECT login_name,realname FROM profiles WHERE userid = 18
+		      2 Query       SELECT who FROM cc WHERE bug_id=13128
+		      2 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13128 
+            ORDER BY longdescs.bug_when
+		      2 Quit       
+040607 15:22:21	      3 Connect     bugs@localhost on bugs
+		      3 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      3 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      3 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      3 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      3 Query       SELECT bug_id FROM bugs WHERE bug_id = 13121
+		      3 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13121
+		      3 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      3 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      3 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      3 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      3 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13121
+    GROUP BY bugs.bug_id
+		      3 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13121 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		      3 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      3 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13121 ORDER BY attach_id
+            
+		      3 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13121 ORDER BY dependson
+		      3 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13121 ORDER BY blocked
+		      3 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		      3 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      3 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		      3 Query       select login_name from profiles where userid = 98
+		      3 Query       SELECT login_name,realname FROM profiles WHERE userid = 98
+		      3 Query       SELECT login_name,realname FROM profiles WHERE userid = 98
+		      3 Query       SELECT who FROM cc WHERE bug_id=13121
+		      3 Query       select login_name from profiles where userid = 152
+		      3 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13121 
+            ORDER BY longdescs.bug_when
+		      3 Quit       
+040607 15:22:34	      4 Connect     bugs@localhost on bugs
+		      4 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      4 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      4 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      4 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      4 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      4 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      4 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      4 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      4 Query       UPDATE logincookies SET lastused = null WHERE cookie = 141
+		      4 Query       SELECT bug_id FROM bugs WHERE bug_id = 13121
+		      4 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13121
+		      4 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      4 Query       SELECT attach_id, description 
+           FROM attachments
+           WHERE bug_id = 13121
+           AND isobsolete = 0 
+           ORDER BY attach_id
+		      4 Query       SELECT short_desc FROM bugs WHERE bug_id = 13121
+		      4 Quit       
+040607 15:22:37	      5 Connect     bugs@localhost on bugs
+		      5 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      5 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      5 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      5 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      5 Query       SELECT bug_id FROM bugs WHERE bug_id = 13121
+		      5 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13121
+		      5 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      5 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      5 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      5 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      5 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13121
+    GROUP BY bugs.bug_id
+		      5 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13121 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		      5 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      5 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13121 ORDER BY attach_id
+            
+		      5 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13121 ORDER BY dependson
+		      5 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13121 ORDER BY blocked
+		      5 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		      5 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      5 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		      5 Query       select login_name from profiles where userid = 98
+		      5 Query       SELECT login_name,realname FROM profiles WHERE userid = 98
+		      5 Query       SELECT login_name,realname FROM profiles WHERE userid = 98
+		      5 Query       SELECT who FROM cc WHERE bug_id=13121
+		      5 Query       select login_name from profiles where userid = 152
+		      5 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13121 
+            ORDER BY longdescs.bug_when
+		      5 Quit       
+040607 15:22:42	      6 Connect     bugs@localhost on bugs
+		      6 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      6 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      6 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      6 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      6 Query       SELECT value, initialowner, initialqacontact, description FROM components WHERE program = 'COUGAAR' ORDER BY value
+		      6 Query       select login_name from profiles where userid = 7
+		      6 Query       select login_name from profiles where userid = 12
+		      6 Query       select login_name from profiles where userid = 47
+		      6 Query       select login_name from profiles where userid = 5
+		      6 Query       select login_name from profiles where userid = 99
+		      6 Query       select login_name from profiles where userid = 103
+		      6 Query       select login_name from profiles where userid = 48
+		      6 Query       select login_name from profiles where userid = 23
+		      6 Query       select login_name from profiles where userid = 11
+		      6 Query       select login_name from profiles where userid = 98
+		      6 Query       select login_name from profiles where userid = 58
+		      6 Query       select login_name from profiles where userid = 18
+		      6 Query       select login_name from profiles where userid = 15
+		      6 Query       select login_name from profiles where userid = 8
+		      6 Query       select login_name from profiles where userid = 62
+		      6 Quit       
+040607 15:22:47	      7 Connect     bugs@localhost on bugs
+		      7 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      7 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      7 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      7 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      7 Query       SELECT bug_id FROM bugs WHERE bug_id = 13121
+		      7 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13121
+		      7 Query       
+        SELECT IFNULL(fielddefs.description, bugs_activity.fieldid),
+                bugs_activity.attach_id,
+                bugs_activity.bug_when,
+                bugs_activity.removed, bugs_activity.added,
+                profiles.login_name
+        FROM bugs_activity LEFT JOIN fielddefs ON 
+                                     bugs_activity.fieldid = fielddefs.fieldid,
+             profiles
+        WHERE bugs_activity.bug_id = 13121 
+              AND profiles.userid = bugs_activity.who
+        ORDER BY bugs_activity.bug_when
+		      7 Quit       
+040607 15:22:50	      8 Connect     bugs@localhost on bugs
+		      8 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      8 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      8 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      8 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      8 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      8 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      8 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      8 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      8 Query       UPDATE logincookies SET lastused = null WHERE cookie = 141
+		      8 Query       select userid from profiles where login_name = 'tom@infoether.com'
+		      8 Query       SELECT query FROM namedqueries WHERE userid = 165 AND name = 'CVS bugs'
+		      8 Query       SELECT name FROM fielddefs
+		      8 Query       SELECT DISTINCT bugs.bug_id, bugs.groupset, bugs.bug_severity, bugs.priority, bugs.rep_platform, map_assigned_to.login_name, bugs.bug_status, bugs.resolution, bugs.short_desc FROM bugs, profiles map_assigned_to, profiles map_reporter LEFT JOIN profiles map_qa_contact ON bugs.qa_contact = map_qa_contact.userid LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND (bugs.bug_status = 'NEW' OR bugs.bug_status = 'ASSIGNED' OR bugs.bug_status = 'REOPENED') AND (bugs.component = 'CVS') AND (bugs.product = 'ISAT') ORDER BY bugs.bug_status, bugs.priority, map_assigned_to.login_name, bugs.bug_id 
+		      8 Query       USE bugs
+		      8 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      8 Quit       
+040607 15:22:54	      9 Connect     bugs@localhost on bugs
+		      9 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		      9 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		      9 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		      9 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		      9 Query       select userid from profiles where login_name = 'tom@infoether.com'
+		      9 Query       SELECT name FROM fielddefs
+		      9 Query       SELECT DISTINCT bugs.bug_id, bugs.groupset, bugs.bug_severity, bugs.priority, bugs.rep_platform, map_assigned_to.login_name, bugs.bug_status, bugs.resolution, bugs.short_desc FROM bugs, profiles map_assigned_to, profiles map_reporter LEFT JOIN profiles map_qa_contact ON bugs.qa_contact = map_qa_contact.userid LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND (bugs.bug_status = 'NEW' OR bugs.bug_status = 'ASSIGNED' OR bugs.bug_status = 'REOPENED') AND (map_assigned_to.login_name = 'tom@infoether.com' OR map_reporter.login_name = 'tom@infoether.com') ORDER BY bugs.bug_status, bugs.priority, map_assigned_to.login_name, bugs.bug_id 
+		      9 Query       USE bugs
+		      9 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		      9 Quit       
+040607 15:22:56	     10 Connect     bugs@localhost on bugs
+		     10 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     10 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     10 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     10 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     10 Query       SELECT bug_id FROM bugs WHERE bug_id = 13115
+		     10 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13115
+		     10 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     10 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     10 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     10 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     10 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13115
+    GROUP BY bugs.bug_id
+		     10 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13115 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		     10 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     10 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13115 ORDER BY attach_id
+            
+		     10 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13115 ORDER BY dependson
+		     10 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13115 ORDER BY blocked
+		     10 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		     10 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		     10 Query       select login_name from profiles where userid = 165
+		     10 Query       SELECT login_name,realname FROM profiles WHERE userid = 165
+		     10 Query       SELECT login_name,realname FROM profiles WHERE userid = 165
+		     10 Query       SELECT who FROM cc WHERE bug_id=13115
+		     10 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13115 
+            ORDER BY longdescs.bug_when
+		     10 Query       SELECT bugs.bug_status, resolution, short_desc, groupset FROM bugs WHERE bugs.bug_id = 13078
+		     10 Query       SELECT bugs.bug_status, resolution, short_desc, groupset FROM bugs WHERE bugs.bug_id = 13114
+		     10 Quit       
+040607 15:22:59	     11 Connect     bugs@localhost on bugs
+		     11 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     11 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     11 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     11 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     11 Query       SELECT bug_id FROM bugs WHERE bug_id = 13078
+		     11 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13078
+		     11 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     11 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     11 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     11 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     11 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13078
+    GROUP BY bugs.bug_id
+		     11 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13078 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		     11 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     11 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13078 ORDER BY attach_id
+            
+		     11 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13078 ORDER BY dependson
+		     11 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13078 ORDER BY blocked
+		     11 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		     11 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		     11 Query       select login_name from profiles where userid = 165
+		     11 Query       SELECT login_name,realname FROM profiles WHERE userid = 165
+		     11 Query       SELECT login_name,realname FROM profiles WHERE userid = 165
+		     11 Query       SELECT who FROM cc WHERE bug_id=13078
+		     11 Query       select login_name from profiles where userid = 191
+		     11 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13078 
+            ORDER BY longdescs.bug_when
+		     11 Query       SELECT bugs.bug_status, resolution, short_desc, groupset FROM bugs WHERE bugs.bug_id = 13115
+		     11 Quit       
+040607 15:23:04	     12 Connect     bugs@localhost on bugs
+		     12 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     12 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     12 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     12 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     12 Query       SELECT name FROM fielddefs
+		     12 Query       SELECT DISTINCT bugs.bug_id, bugs.groupset, bugs.bug_severity, bugs.priority, bugs.rep_platform, map_assigned_to.login_name, bugs.bug_status, bugs.resolution, bugs.short_desc FROM bugs, profiles map_assigned_to, profiles map_reporter LEFT JOIN profiles map_qa_contact ON bugs.qa_contact = map_qa_contact.userid LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND (bugs.bug_id = '13078' OR bugs.bug_id = '13114' OR bugs.bug_id = '13115') ORDER BY bugs.bug_status, bugs.priority, map_assigned_to.login_name, bugs.bug_id 
+		     12 Query       USE bugs
+		     12 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     12 Quit       
+040607 15:23:07	     13 Connect     bugs@localhost on bugs
+		     13 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     13 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     13 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     13 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     13 Query       SELECT query FROM namedqueries WHERE userid = 165 AND name = '(Default query)'
+		     13 Query       SELECT name, description FROM fielddefs ORDER BY sortkey
+		     13 Query       SELECT name FROM namedqueries WHERE userid = 165 AND name != '(Default query)' ORDER BY name
+		     13 Quit       
+040607 15:23:11	     14 Connect     bugs@localhost on bugs
+		     14 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     14 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     14 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     14 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     14 Query       SELECT name FROM fielddefs
+		     14 Query       SELECT DISTINCT bugs.bug_id, bugs.groupset, bugs.bug_severity, bugs.priority, bugs.rep_platform, map_assigned_to.login_name, bugs.bug_status, bugs.resolution, bugs.short_desc FROM bugs, profiles map_assigned_to, profiles map_reporter LEFT JOIN profiles map_qa_contact ON bugs.qa_contact = map_qa_contact.userid LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.assigned_to = map_assigned_to.userid AND bugs.reporter = map_reporter.userid AND (bugs.bug_status = 'NEW' OR bugs.bug_status = 'ASSIGNED' OR bugs.bug_status = 'REOPENED') AND (bugs.product = 'CSMART') ORDER BY bugs.bug_status, bugs.priority, map_assigned_to.login_name, bugs.bug_id 
+		     14 Query       USE bugs
+		     14 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     14 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     14 Quit       
+040607 15:23:14	     15 Connect     bugs@localhost on bugs
+		     15 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     15 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     15 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     15 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     15 Query       SELECT bug_id FROM bugs WHERE bug_id = 13080
+		     15 Query       SELECT bugs.bug_id FROM bugs LEFT JOIN cc selectVisible_cc ON 
+                     bugs.bug_id = selectVisible_cc.bug_id AND 
+                     selectVisible_cc.who = 165 WHERE ((bugs.groupset & 9223372036854775807) = bugs.groupset OR (bugs.reporter_accessible = 1 AND bugs.reporter = 165) OR (bugs.cclist_accessible = 1 AND selectVisible_cc.who = 165 AND not isnull(selectVisible_cc.who)) OR (bugs.assigned_to = 165)) AND bugs.bug_id = 13080
+		     15 Query       SELECT profiles.userid, profiles.groupset, profiles.login_name, profiles.login_name = 'tom@infoether.com' AND logincookies.ipaddr = '192.168.10.222', profiles.disabledtext  FROM profiles, logincookies WHERE logincookies.cookie = '141' AND profiles.userid = logincookies.userid
+		     15 Query       SELECT mybugslink, realname, groupset, blessgroupset FROM profiles WHERE userid = 165
+		     15 Query       SELECT name, query, linkinfooter FROM namedqueries WHERE userid = 165
+		     15 Query       select name, (bit & 9223372036854775807) != 0 from groups
+		     15 Query       
+    SELECT bugs.bug_id, product, version, rep_platform, 
+        op_sys, bug_status, resolution, priority, 
+        bug_severity, component, assigned_to, reporter, 
+        bug_file_loc, short_desc, target_milestone, 
+        qa_contact, status_whiteboard, 
+        date_format(creation_ts,'%Y-%m-%d %H:%i'),
+        groupset, delta_ts, ifnull(sum(votes.count),0)
+    FROM bugs LEFT JOIN votes USING(bug_id)
+    WHERE bugs.bug_id = 13080
+    GROUP BY bugs.bug_id
+		     15 Query       SELECT keyworddefs.name 
+                 FROM keyworddefs, keywords
+                 WHERE keywords.bug_id = 13080 
+                 AND keyworddefs.id = keywords.keywordid
+                 ORDER BY keyworddefs.name
+		     15 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     15 Query       
+              SELECT attach_id, creation_ts, mimetype, description, ispatch, 
+               isobsolete, submitter_id 
+              FROM attachments WHERE bug_id = 13080 ORDER BY attach_id
+            
+		     15 Query       SELECT dependson FROM dependencies WHERE  
+             blocked = 13080 ORDER BY dependson
+		     15 Query       SELECT blocked FROM dependencies WHERE  
+             dependson = 13080 ORDER BY blocked
+		     15 Query       SELECT bit, name, description, (bit & 0 != 0),
+                 (bit & 9223372036854775807 != 0) FROM groups 
+                 WHERE isbuggroup != 0 AND ((isactive = 1 AND (bit & 9223372036854775807 != 0)) OR
+                 (bit & 0 != 0))
+		     15 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'editbugs'
+		     15 Query       select (bit & 9223372036854775807) != 0 from groups where name = 'canconfirm'
+		     15 Query       select login_name from profiles where userid = 149
+		     15 Query       SELECT login_name,realname FROM profiles WHERE userid = 149
+		     15 Query       SELECT login_name,realname FROM profiles WHERE userid = 47
+		     15 Query       SELECT who FROM cc WHERE bug_id=13080
+		     15 Query       select login_name from profiles where userid = 28
+		     15 Query       SELECT  profiles.realname, profiles.login_name, 
+                     date_format(longdescs.bug_when,'%Y-%m-%d %H:%i'), 
+                     longdescs.thetext
+            FROM     longdescs, profiles
+            WHERE    profiles.userid = longdescs.who 
+              AND    longdescs.bug_id = 13080 
+            ORDER BY longdescs.bug_when
+		     15 Quit       

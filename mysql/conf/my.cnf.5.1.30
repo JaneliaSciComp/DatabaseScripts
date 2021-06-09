@@ -1,0 +1,106 @@
+# MySQL client options
+[client]
+port            = 3306
+socket          = /tmp/mysql.sock
+
+# MySQL server options
+################################################################################
+# General options
+################################################################################
+[mysqld]
+port            = 3306
+socket          = /tmp/mysql.sock
+server_id       = 1
+datadir         = /opt/mysql-data
+language        = /opt/mysql/share/english
+table_cache     = 2048
+max_connections = 100
+# logging parameters
+log_warnings     
+general_log = 1
+general_log_file = /opt/mysql-data/query.log
+slow_query_log = 1
+slow_query_log_file = /opt/mysql-data/slow-queries.log
+long_query_time  = 2
+log_long_format
+log-bin         = /opt/mysql-data/bin.log
+sync_binlog    = 1
+# query cache parameters
+query_cache_size  = 64M
+query_cache_limit = 2M
+# thread parameters
+thread_concurrency = 8
+thread_cache_size  = 8
+# buffer parameters
+read_buffer_size   = 8M
+sort_buffer_size   = 8M
+join_buffer_size   = 8M
+max_allowed_packet = 1G
+#
+################################################################################
+# MyISAM Specific options
+################################################################################
+key_buffer_size                 = 32M
+read_buffer_size                = 2M
+read_rnd_buffer_size            = 16M
+bulk_insert_buffer_size         = 64M
+myisam_sort_buffer_size         = 128M
+myisam_max_sort_file_size       = 10G
+myisam_max_extra_sort_file_size = 10G
+myisam_repair_threads = 1
+myisam_recover
+################################################################################
+#
+################################################################################
+# InnoDB specific options
+################################################################################
+default-storage-engine = INNODB
+# innodb buffer size parameters
+innodb_buffer_pool_size         = 1073741824 # 50%-80% of available memory; 1G
+innodb_additional_mem_pool_size = 209715200
+innodb_log_buffer_size          = 1048576
+# innodb tablespace parameters
+innodb_file_per_table
+innodb_data_file_path       = ibdata1:100M:autoextend
+innodb_autoextend_increment = 100M
+# innodb transaction log parameters
+innodb_log_files_in_group      = 2
+innodb_log_file_size           = 25M # 25% of buffer pool size
+innodb_mirrored_log_groups     = 1
+innodb_flush_log_at_trx_commit = 1
+innodb_max_dirty_pages_pct     = 90
+innodb_lock_wait_timeout       = 120
+# innodb thread parameters
+innodb_file_io_threads    = 4
+innodb_thread_concurrency = 16
+################################################################################
+#
+[mysql.server]
+user=mysql
+basedir=/opt/mysql
+
+[mysqld_safe]
+err-log=/opt/mysql-data/error.log
+pid-file=/opt/mysql-data/localhost.localdomain.pid
+
+[mysqldump]
+quick
+max_allowed_packet = 1G
+
+[mysql]
+auto-rehash
+
+[isamchk]
+key_buffer       = 256M
+sort_buffer_size = 256M
+read_buffer      = 8M
+write_buffer     = 8M
+
+[myisamchk]
+key_buffer       = 256M
+sort_buffer_size = 256M
+read_buffer      = 8M
+write_buffer     = 8M
+
+[mysqlhotcopy]
+interactive-timeout

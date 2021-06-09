@@ -1,0 +1,90 @@
+--------------
+select count(1) from additional_resources
+--------------
+
+count(1)
+0
+--------------
+select count(1) from announcements
+--------------
+
+count(1)
+0
+--------------
+select count(1) from anonymous_users
+--------------
+
+count(1)
+0
+--------------
+select count(1) from groups
+--------------
+
+count(1)
+0
+--------------
+select count(1) from login
+--------------
+
+count(1)
+109
+--------------
+select count(1) from mutex
+--------------
+
+count(1)
+2
+--------------
+select count(1) from permission
+--------------
+
+count(1)
+5046
+--------------
+select count(1) from reminders
+--------------
+
+count(1)
+175
+--------------
+select count(1) from reservation_resources
+--------------
+
+count(1)
+0
+--------------
+select count(1) from reservation_users
+--------------
+
+count(1)
+7401
+--------------
+select count(1) from reservations
+--------------
+
+count(1)
+7357
+--------------
+select count(1) from resources
+--------------
+
+count(1)
+72
+--------------
+select count(1) from schedule_permission
+--------------
+
+count(1)
+0
+--------------
+select count(1) from schedules
+--------------
+
+count(1)
+7
+--------------
+select count(1) from user_groups
+--------------
+
+count(1)
+0

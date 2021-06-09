@@ -1,0 +1,11 @@
+user=workorder_ro
+pass=workorder123
+host=workorderdb-p
+db=workorder_p
+delay=5
+port=3306
+#socket=/opt/mysql-data/dev-db/mysql-dev-db.sock
+batchmode=0
+header=1
+color=1
+idle=1

@@ -1,0 +1,78 @@
+November 27, 2005 - 1.6:
+Fixed the first line of the file - it was missing a character. 
+Made Gem runnable - i.e., now you can do "pqa -file [..etc, etc]" after doing a "gem install pqa"
+Various minor speed improvements.
+Wrote more unit tests.
+
+January 31, 2005 - 1.5:
+Fixed a bug that would sometimes associate a duration measurement with the incorrect query.
+Fixed a bug which would cause the HTML report to error out with a nil-dereference exception.
+Fixed a bug which cause PQA to choke on SQL statements that were issued as part of a stored procedure.
+Restored the ability to run under Ruby 1.6.8.
+
+July 27, 2004 - 1.4:
+The syslog parser now checks for either LOG or DEBUG entries.
+Fixed a bug in the syslog parser that would choke on entries like "postgres starting".
+
+June 18, 2004 - 1.3:
+Improved MySQL query log support.
+Parse errors (if they occur) are now included in the report.
+The default log format is now "pglog".  Syslog still works, but you'll need to specify "-logtype syslog".
+
+June 8, 2004 - 1.2:
+Added MySQL query log file support.
+Fixed bug - duration report links no longer appear in header if duration information is not available.
+
+June 7, 2004 - 1.1:
+Syslog parser now handles durations.
+Added text versions of duration reports.
+Removed some spurious entries from the reports (i.e., BEGIN;ROLLBACK).
+
+May 17, 2004 - 1.0:
+Now numbers are normalized - i.e.; "select bar where foo=222" normalizes to the same query as "select bar where foo=123312321".  This means more accurate information on what queries are occurring most frequently, taking the most time, and all that.
+Fixed bug - OverallStatsReport no longer displays "longest ran in 0.0 seconds" if the log does not include duration information
+Fixed bug - OverallStatsReport now displays the correct number of unique queries.  v0.9 listed the same number for both total and unique queries.
+Fixed various bugs in syslog parsing - now it should work better with both PG 7.3 and PG 7.4.  It's still a better idea to use the Postgres log, but if you must use syslog for some reason, it's better now.
+
+May 11, 2004 - 0.9:
+Added ability to handle Postgres logs where log_pid/log_timestamp/log_connection has been enabled
+Modified to support both "query:" and "statement:" as log entry preambles - i.e., works with PG 7.4 logs now.
+The SQL colorizing works a bit better.
+Updated documentation to include better postgresql.conf configuration details.
+
+May 7, 2004 - 0.8:
+Added UPDATE queries to the "Queries by type" report
+Added support for parsing query duration data from the Postgres log
+Added a "Queries that took up the most time" report
+Added a "Slowest queries" report
+Added a table of contents to the HTML report
+
+April 28, 2004 - 0.7:
+Added support for using Postgres log file.  syslog is still supported, of course.
+Fixed bug which resulted in errors if the number of valid queries in a log was less than -top.  Thanks to Tom De Bruyne for reporting this bug.
+The SQL colorizing works a bit better now.
+Various tweaks to HTML reports.
+
+April 23, 2004 - 0.6:
+Added a 'rank' column to the 'MostFrequentQueries' report.
+Colorized the SQL keywords in the HTML report.
+
+April 7, 2004 - 0.5:
+Added HTML reports.
+
+April 6, 2004 - 0.4:
+Fixed a bug which prevented single digit date logs from being parsed.
+
+March 17, 2004 - v0.3:
+Fixed an off-by-one bug in the number of reports returned.
+More optimizations, should again be about 10% faster.
+Added a "query frequency by type" report.
+
+March 9, 2004 - v0.2:
+Fixed a connection id bug.
+Various optimizations, should be about 10% faster.
+Improved packaging.
+
+March 5, 2004 - v0.1:
+Can display queries by frequency.
+Performs query normalization.

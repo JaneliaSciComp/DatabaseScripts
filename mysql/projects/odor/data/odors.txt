@@ -1,0 +1,1233 @@
+compound	synonym	LAB ###	CAS registry	formula	MW	calc vapor press	Group	Class	Ventral	Descriptors	Monell #	Firestein#	Albianu #	M72 response	bottle ###	Volume	Purity	Vendor	Price	Catalog Number	received	link
+5-a-Androst-16-en-3-one		1													1	5 mg		Sigma	$80.40 	A8008-5MG	04/23/07	
+amyl acetate	pentyl acetate	2	628637	C7H14O2	130.18				76.2219	" banana, pear, sweet, fruity "					1	100 ml		EMS		10815		
+benzaldehyde		3	100527	C7H6O	106.12	0.7			72.7055	" sweet, almond, cherry   "	13				1	100 g	99+	Aldrich	$24.50 	B1334-100G	04/20/07	
+benzene		4	71432	C6H6	78.11	80					41				1	100 ml	99.9	Sigma		270709	05/23/07	
+Benzene Benzol		5													1	1 L	³99	Fluka	$49.50 	12560-1		
+Benzyl benzoate		6													1	250 ml	99	SIGMA	$21.60 	B6630-250ML	04/20/07	
+6-Bromocaproic acid		7													1	10 g	98		$25.50 	16594-10G	04/20/07	
+8-Bromooctanoic acid		8													1	10 g	97	Aldrich	$118.60 	257583-10G	04/20/07	
+S-(+)-2-Butanol		9													1	5 ml	99	Fluka	$142.50 	19025-5ML	04/20/07	
+butyl acetate		10	123864	C6H12O2	116.16	9			72.1309	" pear, banana, fruity, sweet "	64				1	1000mg x 2	Ampule	Supelco	$11.10 	442666-U	04/23/07	
+n-butyl acetate		10	123864	C6H12O2	116.16	9			72.1309	" pear, banana, fruity, sweet "	64				2	500ML	³99.5	Sigma-Aldrich	$44.50 	402842-500ML	04/23/07	
+Butyraldehyde		11													1	100 ml	99	Sigma-Aldrich	$16.50 	538191-100ML	04/20/07	
+butyric acid		12	107926	C4H8O	88.11	1			89.7564	" pungent, putrid     "					1	100 ml	99	Aldrich	$15.90 	B103500-100ML	04/20/07	
+D-Camphor		13													1	10 g	³97	Aldrich	$25.00 	W223018-10G	04/23/07	
+"Caproic acid, Decanoic acid"		14													1	1 kg	98	Aldrich	$36.60 	W236403-1KG	04/20/07	
+citral		15	5392405	C10H16O	152.23	0.1	Aldehydes	Aliphatics			18	51			1	100 ml	95	Aldrich		C83007-100ML	02/23/07
+Citronellyl Tiglate		16													1	100 g	96+		$73.10 	W500607-100G	 5/17/07
+Decanal		17	112312	C10 H20 O   	156.27				98.5036	" sweet, waxy, orange peel, citrus "					1	100 ml	95	Fluka	$33.00	21400-100ML	
+decane		18	124185						93.5681	 gasoline       	38				1	100 ml	99	Sigma		D901-100ML	05/17/07
+2-decanone		19	693549	C10H20O	156.27	0.2			93.9952	" orange, floral     "	84				1	25 g	98	Sigma	$55.10	196207-25G	
+dodecane		20	112403						96.744	 x       					1	250 ml	90	Fluka	$34.30	44030-250ML	
+Ethoxybenzene	Phenatole	21													1	100 ml	99	Aldrich	$17.00 	241989-100ML	04/24/07
+ethyl acetate		22	141786	C4H8O2	88.11	90			84.0798	" fruity, brandy, pineapple, ether "					1	1 L	³99.5		$57.00 	676810-1L	04/30/07
+ethyl benzene		23	100414						76.6939	" sweet, gassy, gasoline, aromatic "					1	100 ml	99.8	Sigma		296848-100ML	05/23/07
+decanol	geraniol	24	106241	C10H18O	154.25		Alcohols	Aliphatics	88.5846	" sweet, rose, woody, floral "	22	35			1	50 ml	96	Fluka	$33.00	48799-50ML	
+Heptaldehyde		25													1	100 ml	95	Sigma-Aldrich	$18.00 	H2120-100ML	04/26/07
+heptanoic acid	oenanthic acid	26	111148	C7H14O2	130.18	0.1							35	0.09	1	100 ml	99+	Fluka	$28.80 	75190-100ML	04/23/07
+2-heptanone		27	110430	C7 H14 O     	114.185				70.924	" fruity, spicy, cinnamon, banana "	5		5	0.54	1	1 ml	³99.8	Fluka	$51.80 	02476-1ML	
+3-heptanone		28	106354	C7H14O	114.19	3			76.2378	" fruity, green, fatty, sweet "	78				1	10 g	97+	SAFC	$25.00 	W254509-10G	05/07/07
+4-heptanone		29	123193	C7H14O	114.19	4			77.2889	" fruity, pineapple, cheese, sweet "					1	100 ml	98+		$18.00 	101745-100ML	04/27/07
+Heptyl acetate		30													1	1 g	98+		$35.50 	W254711-1G	
+hexanal		31	66251	C6H12O	100.16	8			78.7877	" green, fatty, leafy, fruity "	25		36	0.06	1	100 ml	98	Aldrich	$19.10 	115606-100ML	04/27/07
+hexanoic acid	caproic acid	32	142621	C6H12O2	116.16	0.1			73.2807	" goat, pungent, stench, limburger cheese "					1	50 ml	97	Fluka	$13.70	21520-50ML	
+1-hexanol		33	111273	C6H14O	102.17				92.8283	" fragrant, woody, grass, fatty "	26				1	100 ml	99	Fluka	$22.60 	52830-100ML	04/26/07
+2-hexanone		34	591786	C6H12O	100.16	10			76.4017	" acetone-like,  pungent       "	6		34	0.06	1	10 g	98	Aldrich	$20.90 	103004-10G	04/23/07
+cis-3-Hexenyl acetate		35													1	10 g	98	SAFC		W317101-10G	05/31/07
+hexyl acetate		36	142927	C8H16O2	144.21				89.791	" berry, pear, apple, cherry "	27				1	25 ml	99	Aldrich	$16.70 	108514-25ml	04/30/07
+Hexyl octanoate		37	1117551	C14 H28 O2           	228.371										1	10 g	97+ 	SAFC	$25.00 	W257508-10G	05/04/07
+Isoamyl butyrate		38	106274	C9 H18 O2   	158.238				87.3073	" fruity, apricot, pineapple, banana "					1	5 ml	99+	Acros	$20.00	AC23229-0050	
+Isoamyl hexanoate		39	2198610	C11 H22 O2     	186.291										1	5 g	³98	Aldrich	$25.00 	W207500-5G	05/07/07
+Isoamyl nonanoate		40	7779706	C14 H28 O2      	228.371										1	5 g	96+	SAFC		W207802-5G	
+isovaleric acid		41	503742	C5H10O2	102.13	0.4			76.9553	" rancid, cheese, sweaty, fecal "					1	100 ml	99		$18.00 	129542-100ML	
+R-(+)-limonene		42	5989275	C10H16	136.23	1.1			81.9075	" citrus, lemon, orange   "					1	5 ml	97+	Fluka	$87.60 	62118-5ML	04/23/07
+L-(-)-limonene		43	5989548						82.3892	" herbaceous, spearmint, peppermint, lemon "					1	50 g	96	Aldrich	$18.90 	218367-50G	04/23/07
+menthol		44	2216515	C10H20O	156.27				82.3158	" minty, woody, peppermint, herbaceous "					1	100 ml	99	Acros	$24.60	AC12539-1000	
+"2-Mercapto-1-methylimidazole, Methimazole"		45													1	25 g	99+	Aldrich	$83.50 	301507-25G	04/23/07
+Mesityl oxide	4-methyl-3-penten-2-one	46	141797	C6 H10 O       	98.143				65.6138	" pungent, vegetable, honey, peppermint "					1	100 g	90	Aldrich	$33.00 	59140-1L-F	
+Methyl benzoate		47													1	25 g	99+	Aldrich	$14.70 	M29908-25G	04/23/07
+Methyl ethyl ketone	2-butanone	48	78933	C4H8O	72.11	90									1	1L	99			676926-1L	04/30/07
+5-methyl-2-hexanone		49	110123	C7H14O	114.19	4									1	1 L	99	Aldrich	$33.90 	537705-1L	04/24/07
+Methyl caprylate	methyl octanoate	50	111115	C9 H18 O2  	158.238										1	25 ml	99	Fluka	$39.20	21720-25ML-F	
+methyl salicylate		51	119368	C8H8O3	152.15	0.1			72.3716	" minty, spicy, sweet, wintergreen "					1	100 ml	99	Sigma	$21.40 	M2047-100ML	04/23/07
+2-methylbutyraldehyde		52	96173	C5H10O	86.13	40									1	50G	³95	Aldrich	$65.90 	M33476-50G	
+2-methylvaleraldehyde	2-Methylpentanal	53	123159	C6H12O	100.16	13									1	100 ml	98	Aldrich	$33.10 	258563-100ML	04/24/07
+Naphthalene 		54	91203	C10 H8   	128.171	0.03			96.215	" mothball, aromatic     "	23				1	25 g	99	Aldrich	$19.90 	147141-25G	04/26/07
+1-Naphthylamine		55													1	25 g	~98		$44.00 	N9005-25G	04/23/07
+Nonyl aldehyde		56													1	100 g	95	Aldrich		N30803-100G	
+octanal	octyl aldehyd	57	124130	C8H16O	128.21	1.7			82.2025	" fatty, sweet, orange, honey "	34		33	-0.11	1	100 ml	99	Aldrich	$24.70 	O5608-100ML	04/26/07
+Octane		58													1	100 ml	³99	Sigma	$81.70 	296988-100ML	04/27/07
+1-octanol		59	111875	C8H18O	130.23				94.2961	" fatty, citrus, rose, sweet "					1	100 ml	99	Sigma	$26.20 	O4500-100ML	04/23/07
+2-octanol	R-(-)-2-octanol	60	123966	C8H18O	130.23				77.9274	" spicy, green, woody, fatty "	8				1	100 ml	9700%	Sigma Aldrich	$10.20 	O4504-100ML	04/23/07
+pentadecane		61	629629						98.7339	 x       					1	100 ml	98	Fluka	$32.40	76510-100	
+1-pentanol		62	71410						85.8102	" fusel, sweet     "	52				1	100 ml	>99	Sigma Aldrich	$64.50 	138975-100ML	05/17/07
+2-pentanone		63	107879	C5H10O	86.13	30			68.2142	" sweet, ether, fruity, pungent "					1	100 ml	99.5Ê		$45.20 	471194-100ML	04/27/07
+Pentyl acetate		64											29	0.78	1	250 ml	99	Aldrich	$31.60 	109584-250ML	04/23/07
+(+)-a-Pinene		65													1	1 ml	98.2		$26.10 	80605-1ML	
+"1,2-propanediol"		66													1	25 ml	³99.5		$18.60 	398039-25ML	04/23/07
+Propionaldehyde	propanal	67	123386	C3 H6 O             	58.079										1	250 m l	³96.0	Fluka	$18.00 	81870-250ML	04/27/07
+propionic acid		68	79094	C3H6O2	74.08	3	Acids	Aliphatics	87.3804	" pungent, rancid, sweet, vinegar "	95	53			1	1 L	99.5	Aldrich	$18.00 	537047-1L	04/23/07
+salicylaldehyde		69					Aldehydes	Aromatics				7			1	100 ml	99	Fluka		84160	06/04/07
+tetradecane		70	629594	CH3(CH2)12CH3	198.39				113.032	 x       					1	50 ml	99	Fluka	$22.60	87140-50ML	05/01/07
+"Tridecanal, tech. 90%"		71													1	5 g	90		$93.50 	269239-5G	04/23/07
+Trimethylamine hydrochloride		72													1	100 g	98	Aldrich	$18.20 	T72761-100G	04/27/07
+undecane		73	1120214						93.599						1	50 ml	97	Fluka	$26.70	94002-50ML	06/13/07
+2-Undecanone		74	112129	C11 H22 O          	170.292				95.169	" citrus, rose, iris, rue "					1	100 ml	97	Fluka	$28.00	68160-100ML	06/13/07
+valeric acid		75	109524	C5H10O2	102.13	0.3	Acids	Aliphatics	88.5988	" putrid, fecal, sweaty, rancid "		54			1	1 L	99	Aldrich	$28.50 	110140-1L	
+n-VarleraldehydeÊ	"2-(4-Chlorobutyl)-1,3-dioxolane"	76													1	5 ml	³97Ê	Fluka	$144.00 	24045-5ML-F	04/24/07
+Xylenes		77													1	500 ml	98.5	Sigma		247642-500ML	05/23/07
+citral dimethyl acetal		78	7549373				Ethers	Aliphatics				69			1	5 g	95		$57.50 	W230502-100G	05/17/07
+acetophenone		79	98862	C8H8O	120.15	0.2	Ketones	Aromatics	68.2221	" orange, blossom, sweet, floral, almond "	10	24	3	0.22	1	250 ml	>98.0	Fluka		800	03/01/09	
+isopropyl tiglate		80	1733251	C8H14O2	142.2										1	100	98+	Sigma-Aldrich			03/09/09	
+D-(+)-carvone	S-(+)-Carvone	81	2244168	C10H14O	150.22	0.1			71.9067	" spicy, bread, caraway, spearmint "	32				1	25 ml	96+		$46.10 	435759-5ML		
+L-(-)-carvone	R(-)-Carvone	82	6485401	C10H14O	150.22	0.1			74.6651	" herbaceous, spearmint, peppermint, sweet "	33				1	10 ml	99+		$35.60 	22057-10ML	04/20/07	
+ethyl tiglate	Ethyl trans-2-methyl-2-butenoate	83	5837785	CH3CH	128.17								1	5.94	1	100 ml	98	Sigma Aldrich	$44.00 	W246018	04/01/09	http://www.sigmaaldrich.com/catalog/ProductDetail.do?N4=W246018|ALDRICH&N5=SEARCH_CONCAT_PNO|BRAND_KEY&F=SPEC
+allyl tiglate (12%)		84	7493712										12	5.30	1	100 G	97+%	Sigma 		W204307-100G	04/24/09	
+1-propanol			71238						76.461	 alcohol-like       	35											
+4-heptanol			589559						64.3497	 alcohol-like       												
+4-hydroxybenzaldehyde			123080						92.347	 almond       												
+ethyl valerate			539822	C7H14O2	130.18	4			72.5831	" apple, sweet, fruity,  pineapple       "	29		11	0.11								
+2-octanone			111137	C8H16O	128.21	1.3			80.1359	" apple,  floral, green,  herbaceous       "	42											
+benzyl alcohol			100516						91.1612	" aromatic, sweet       "	74											
+methyl cinnamate			103264						84.0321	" balsam, fruity  strawberry  cherry "												
+butyl propionate			590012	C7H14O2	130.18	3.5			69.6065	" banana, rum, fruity, sweet "			57	-0.48								
+ethyl butyrate			105544	C6H12O2	116.16	10			74.1785	" banana, pineapple, berry, cognac "												
+methyl cyclohexanecarboxylate			4630824						70.0393	" berry, milk, fruity, pineapple "												
+methyl heptanoate			106730	C8H16O2	144.21				90.6658	" berry, fruity, green, sweet "				
+ethyl heptanoate			106309	C9H18O2	158.24	0.4			94.2092	" brandy, berry, wine, pineapple "			9	0.39
+acetylcyclohexane			823767						73.7046	" camphoraceous, sweet     "				
+Camphor			76222	C10 H16 O    	152.233				94.1774	" camphoraceous, minty, phenolic, woody "				
+4-tert-butylpyridine			3978812						68.5587	" cigar, shop       "				
+cinnamaldehyde			14371109	C9H8O	132.16	0.1			69.8175	" cinnamon, spicy, pungent   "				
+alpha-phellandrene			99832						72.9446	" citrus, lime, peppery, juniper "				
+2-pentanol			6032297	C5H12O	88.15	6			80.2317	 disagreeable       				
+2-heptanol	R-(-)-2-heptanol		543497	C7H16O	116.2				68.1807	" earthy, oily, lemon, grass "				
+3-hexanone			589388						69.3422	" ether, grape, wine, rum "	47		60	0.40
+methanol			67561	CH3OH	32.04	210			95.1868	" ether, alcohol-like, pungent   "				
+octanoic acid			124072	C8H16O2	144.21	0.1			78.3939	" fatty, fruity, sweaty, cheese "			31	1.44
+2-nonanol			628999	C9H20O	144.25	0.1			80.3668	" fatty, green, melon, orange "				
+nonanal			124196	C9H18O	142.24	0.4			91.5735	" fatty, floral, waxy, fruity "				
+1-heptanol	Heptyl alcohol		111706	C7H16O	116.2	0.2			81.8517	" fragrant, woody, green, fatty "	24		55	0.50
+ethyl propionate			105373	C5H10O2	102.13	35			78.6518	" fruity, rum, pineapple, sweet "			22	0.08
+2-dodecanone			6175491						104.091	" fruity, orange peel, sweet, floral "		
+2-nonanone			821556	C9H18O	142.24	0.45			93.2411	" fruity, floral, fatty, rose "	7	
+3-Methyl-2-buten-1-ol			556821	C5 H10 O  	86.133				70.6196	" fruity, green, lavender   "		
+5-hydroxy-2-hexanone			65709731	C6H12O2	116.16				71.1749	" fruity, sweet     "		
+Isoamyl acetate			123922	C7 H14 O2    	130.185		Esters Amyl	Aliphatics	73.4639	" fruity, banana, sweet, solvent "	12	65
+isopropyl propionate			637785						78.1856	" fruity, sweet, pineapple, banana "		
+menthyl acetate			29066340	 C12H22O2 	198.3				88.9107	" fruity, berry, minty, woody "		
+methyl valerate			624248	C6H12O2	116.16				84.8271	" fruity, nutty, green, apple "		
+propyl propionate			106365	C6H12O2	116.16	11			69.967	" fruity, floral, apple, pineapple "		
+trans-2-Hexenoic acid			13419697	C6 H10 O2     	114.142				70.4129	" fruity, sweet, herbaceous   "		
+heptane			142825						75	 gasoline       		
+hexane			110543						85.2165	 gasoline       	65	
+nonane			111842						89.747	 gasoline       		
+"Octane, anhydrous"			111659	C8H18	114.23				77.1199	" gasoline, solvent, paraffin   "	30	
+heptanal			111717	C7H14O	114.19	3			80.0609	" green, sweet, herbaceous, wine "		
+(+)-terpinen-4-ol			562743						81.8977	" herbaceous, peppery, woody, earthy "		
+3-heptanol			589822	C7H16O	116.2	0.7			64.9428	 herbaceous       				
+3-nonanol			624511						79.0699	" herbaceous, spicy, earthy, sweet "				
+cyclohexanecarboxaldehyde			2043610						69.804	 minty       				
+menthone			14073973						80.8176	 minty       				
+1-nonanol			143088	C9H20O	144.26				92.6639	" oily, floral, petal   "	86			
+methyl anthranilate			134203						75.4274	" orange, blossom, jasmine, musty, fruity "				
+propyl acetate			109604	C5H10O2	102.13	30			77.9935	" pear, celery, fruity, solvent "				
+guaiacol			90051	C7H8O2	124.14	0.1			93.9021	" phenolic, smoke, woody, spicy "				
+o-anisaldehyde			135024						85.0774	 phenolic       				
+propyl butyrate			105668	C7H14O2	130.18	4			75.9219	" pineapple, fruity, sweet, apricot "			40	-0.18
+methyl caproate			106707	C7H14O	130.18	3			79.4894	" pineapple, ether, apricot, fruity "				
+methyl isocaproate			2412808						70.6887	" pineapple, sweet, fruity, banana "				
+2-acetylpyridine			1122629						77.9211	" popcorn, fatty, tobacco, nutty "				
+4-Methylvaleric acid			646071	C6 H12 O2        	116.158				77.5902	" pungent, cheese     "				
+formic acid			64186	HCOOH	46.03				87.6831	 pungent       				
+pentanal			110623	C5H12O	88.15				83.1425	" pungent, fruity, musty, nutty "				
+santalol			11031451						84.4689	" sandalwood, woody, cedar, herbaceous "				
+2-Methylbutyric acid			116530	C5 H10 O2  	102.132				76.8232	 stench       				
+p-Anisaldehyde			123115	C8 H8 O2  	136.148				91.2543	" sweet, mimosa, floral, hawthorn "			10	0.25
+3-methyl-2-butenal			107868						74.1712	" sweet, fruity, pungent, nutty "				
+acetone			67641	C3H6O	58.08	285			75.7933	" sweet, minty, pungent   "	88			
+cinnamyl alcohol			104541						93.123	" sweet, balsam, hyacinth, green "				
+Methyl nicotinate			93607	C7 H7 N O2     	137.136				96.6242	" sweet, herbaceous, tobacco   "				
+methyl phenylacetate			101417						80.1752	" sweet, honey, jasmine, fruity "				
+Thymol			89838	C10 H14 O      	150.218				89.9678	" sweet, medicinal, thyme, camphoraceous "				
+vanillin			121335						96.2887	" sweet, vanilla, chocolate, malty "				
+acetic acid			64197	C2H4O2	60.05	10			93.2013	" vinegar, pungent, sour   "				
+ethyl caproate			123660	C8H16O2	144.21	1.2			81.1762	" wine, apple, banana, brandy "				
+ethyl caprylate			106321	C10H20O2	172.26	0.15			95.0234	" wine, apricot, banana, fruity "				
+(-)-b-pinene			18172673						99.4574	" woody, pine, hay, green "				
+a-ionone	alpha-ionone		127413	C13H20O	192.3	0.1			87.5977	" woody, violet, orris, floral "				
+menthyl isovalerate			16409464						86.4005	" woody, fruity, sweet   "				
+cyclohexylmethanol			100492						81.6489	 x       												
+methyl 3-methylbutenoate			924505						65.1871	 x												
+tridecane			629505						104.008													
+trans-2-pentenoic acid			13991372						73.8956													
+mineral oil 													0	-0.06								
+ethyl acrylate			140885	C5H8O2	100.12	30							2	0.41								
+methyl tiglate (12%)													4	5.38								
+allyl tiglate			7493712										6	1.54								
+ethyl 2-mercaptopropionate			19788499										7	0.89								
+propyl tiglate (12%)													8	3.34								
+ethyl benzoylacetate			94020	C11H12O3	192.21	0.1							13	0.55								
+2-methoxy pyrazine													14	0.27								
+Ethyl 3-hydroxybutyrate			5405414	C6 H12 O3         	132.158								15	0.74								
+ethyl tiglate (1.6%)			5837785										16	6.31								
+methyl butyrate			623427	C5H10O2	102.13	25					31		17	0.50								
+2-ethyl butyric acid													18	0.14								
+methyl tiglate													19	0.49							
+Ethyl 2-Methylbutyrate											19		20	1.66							
+hexanoate													21	0.91							
+isobutyl amine			78819	C4H11N	73.14	110							23	0.32							
+ethyl butyrate							Esters Amyl	Aliphatics				63	24	0.46							
+nutmeg oil (10%)													25	0.89							
+4-Methoxyacetophenone			100061	C9 H10 O2     	150.174	0.01							26	1.38							
+pyridine			110861	C5H5N	79.1	18							27	-0.09							
+piperidine			110894	C5H11N	85.15	20							28	0.78							
+trimethyl thiazole													30	0.65							
+isoamyl amine			107857	C5H13N	87.16	40							32	0.46							
+Isobutyl propionate			540421	C7 H14 O2            	130.185								37	0.09							
+"3-acetyl-2,5-dimethylfuran"			10599709	C8H10O2	138.16	0.1							38	0.39							
+pyrrolidine			123751	C4H9N	71.12	45							39	0.66							
+allyl butyrate			2051787	C7H12O2	128.17	3					81		41	0.02							
+furfuryl hexanoate													42	0.23							
+2-ethoxy thiazole													43	0.37							
+furfuryl butyrate			623212										44	0.85							
+methyl 2-pyrrollyl ketone solid													45	0.17							
+furfuryl pentanoate			36701016										46	0.19							
+coffee (10%)													47	0.67							
+furfuryl propionate			623198										48	0.45							
+2-acetylthiophene			88153	C6H6OS	126.18	0.1							49	0.57							
+"2,5-dimethyl thiazole"													50	0.59							
+"2-hexanal, trans"													51	0.89							
+carvone													52	0.30							
+valeraldehyde			110623	C5H10O		0.1							53	0.04							
+isobutyl thiazole													54	0.87							
+butyl amine			109739	C4H11N	73.14	76							56	-0.01							
+dimethoxy benzaldehyde (solid)													58	-0.06							
+isoeugenol			97541	C10H12O2	164.2	0.1	Ethers	Aromatics				17	59	0.37							
+dymethyl phenol (solid)													61	-0.25							
+tislic acid - isobutyl ester													62	-0.16							
+"3-ethoxy, 4-hydroxy benzaldehyde"													63	0.19							
+3-acetyl furan (solid)													64	0.17							
+benzyl propionate			122634										65	0.33							
+bicycle nonanal lactone													66	0.20							
+cyclohexyl ethyl acetate													67	0.43							
+dimethyl benzyl carbonyl acetate													68	0.48							
+cyclohexyl ethyl alcohol													69	0.28							
+hexalon													70	0.55							
+phenyl ethyl isobutyrate													71	0.85							
+B-ionone			79776	C13H20O	192.3								72	0.21							
+phenoxy ethyl propionate													73	0.43							
+strawberriff													74	0.72							
+phenyl ethyl acetate													75	0.65							
+verdox HC													76	0.12							
+phenyl ethyl alcohol													77	0.52							
+verdural B extra													78	0.58							
+phenoxy ethyl isobutyrate													79	0.03							
+verdural extra													80	0.34							
+prenyl acetate			1191168	C7 H12 O2      	128.169						37		81	0.24							
+vertenex													82	0.31							
+styralyl propionate													83	0.74							
+vertenex HC													84	0.30							
+Acetal			105577	C6H14O2	118.18	20							85	0.52							
+(-)-a-terpineol			98555	C10H18O	154.25	0.1															
+(-)-Carvyl acetate			97427	C12 H18 O2        	194.27																
+(-)-dihydrocarvyl acetate			20777495	C12 H20 O2    	196.286																
+(-)-fenchone			4695629	C10H16O	152.23	0.3															
+(-)-isopulegol			89702	C10H18O	154.25																
+(-)-menthone			14073973	C10H18O2	154.25																
+(-)-myrtenal			23727164	C10H14O	150.22	0.1															
+(-)-pinene			1227815	C8H8O	120.15	2.7															
+(-)-rose oxide			16409431	C10H18O	154.25							
+(-)-terpinen-4-ol			20126765						80.134			
+(+)-b-citronellol			106229	C10H20O	156.27	0.1						
+(+)-fenchone			4695629	C10H16O	152.23	0.3						
+(+)-rose oxide			16409431	C10H18O	154.25							
+(+/-)-linalool											48	
+1-acetonaphthone			941980	C12H10O	170.21							
+1-butanethiol			109795	C4 H10 S 	90.19							
+1-Dodecanol			112538	C12 H26 O      	186.328	0.1					60	
+1-fenchone							Ketones	Aliphatics				71
+1-furfurylpyrrole			1438944	C9H9NO	147.17	0.1						
+1-hexanethiol			111319	C6H14S	118.24	3.5						
+1-Hexen-3-ol			4798441	C6 H12 O       	100.159							
+1-mercapto-2-propanol			1068479	C3H8OS	92.16							
+1-Methylhydantoin			616046	C4H6N2O2	114.1							
+1-Methylnaphthalene			90120	C11 H10       	142.197							
+1-methylpyrrole`			96548	C5H7N	81.12	20						
+1-methylthio-2-propanone												
+1-octen-3-ol			3391864	C8H16O	128.21	0.35						
+1-Penten-3-ol			616251	C5 H10 O  	86.132							
+1-phenyl-2-pentanol			705737	C11H16O	164.25							
+1-phenylethanol			98851	C8H10O	122.16	0.1						
+"1,1,3,3-tetramethylbutyl isocyanide"							Other	Aliphatics				74
+"1,2-diethylbenzene"							Hydrocarbons	Aromatics				22
+"1,2-Dimethoxy-4-(1-propen-1-yl)-benzene"			9.31633E+11	C11 H14 O2   	178.228							
+"1,2-ethanedithiol"			540636	C2H6S2	94.2	5						
+"1,3-butanedithiol"			24330527	C4H10S2	122.25							
+"1,3-dimethoxybenzene"			151100	C8H10O2	138.16	0.15						
+"1,3-propanedithiol"			109808	C3H8S2	108.23	1.5						
+"1,4-butanedithiol"			1191088	C4H10S2	122.25	0.4						
+"1,4-cineole"			470677	C10H18O	154.25							
+"1,4-diaminobutane"			110601	C4H12N2	88.15	2						
+"1,4-diaminobutane"			110601	C4H12N2	88.15	2						
+"1,4-Dimethylcyclohexane"			589902	C8H16	112.21							
+"1,4-Thioxane"			15980151	C4H8OS	104.17							
+1R-(-)-myrtenal			564943	C10 H14 O  	150.218							
+"1R-(+)-alpha pinene,97%"											89	
+"1S-(-)-alpha pinene,98%"											90	
+2-(methylthio) ethanol			5271385	C3H8OS	92.16							
+2-acetyl-5-methylfuran			1193799	C7H8O2	124.14	0.2						
+2-acetylthiazole			24295032	C5H5NOS	127.16	0.1						
+2-butanol			78922	C4H10O	74.12	18						
+2-carvone							Aldehydes	Aromatics				5
+2-cyclohexen-1-one			930687	C6H8O	96.13	1.5						
+2-decalone							Ketones	Aromatics				25
+2-decanol			1120065	C10H22O	158.28	0.1						
+2-Ethyl butyraldehyde			97961	C6 H12 O       	100.159							
+2-ethyl-1-hexanol			104767	C8 H18 O          	130.228							
+2-Ethyl-3-methylpyrazine			15707230	C7 H10 N2                  	122.168							
+"2-ethyl-3,5(or6)-dimethylpyrazine"				C8H12N2	136.19							
+2-ethyl-5-methylfuran				C7H10O	110.15							
+2-ethylfenchol				C12H22O	182.3		Alcohols	Aliphatics				34
+2-Ethylfuran			3208160	C6 H8 O     	96.127							
+2-ethylphenol			90006	C8H10O	122.16	0.1						
+2-Ethyltoluene							Hydrocarbons	Aromatics				20
+2-furaldehyde			98011	C5 H4 O2     	96.084	1.7						
+2-furylmethylketone			1192627	C6H6O2	110.11	0.5						
+2-hexanol			626937	C6H14O	102.17	2			72.0397			
+2-Isobutyl-3-methoxypyrazin							Heterocycles	Aromatics				19
+2-Isobutyl-3-methylpyrazine			13925069	C9 H14 N2                 	150.221							
+2-isopropyl-3-methoxypyrazine				C8H12N2O	152.19							
+2-methoxy-3-methylpyrazine			2847305	C6H8N2O	124.14	2.5						
+2-methoxy-4-methylphenol			93516	C8H10O2	138.16	0.1						
+2-Methoxy-4-vinylphenol			7786610	C9 H10 O2          	150.174							
+2-methoxypyrazine			3149288	C5H6N2O	110.11	3						
+2-methyl-1-propanethiol			513440	C4H10S	90.19	60						
+2-methyl-2-heptanol			625252	C8H18O	130.23	0.7						
+2-methyl-2-hexanol			625230	C7H16O	116.2	1.7						
+2-methyl-2-pentanol			590363	C6H14O	102.17	5						
+2-Methyl-2-pentenal			623369	C6 H10 O    	98.143							
+2-methyl-2-pentene			625274						68.2438			
+2-methyl-3-hexanone			7379126	C7H14O	114.19	6						
+2-methylanisole			578585	C8H10O	122.16	1.5						
+2-methylanisole							Ethers	Aromatics				15
+2-Methylbutyl acetate			624419	C7 H14 O2    	146.185							
+2-Methylbutyl isovalerate			2445774	C10 H20 O2        	172.265						72	
+2-methylpyrazine			109080	C5H6N2	94.11	7						
+2-methylquinoline	quinaldine		91634	C10H9N	143.19	0.1						
+2-Methyltetrahydrofuran-3-one     			3188009	C5 H8 O2   	100.116							
+2-Methyltetrahydrothiophen-3-one			13679851	C5 H8 O S  	116.182							
+2-methylvaleric acid			97610	C6H12O2	116.16	0.1						
+2-nonanone							Ketones	Aliphatics				72
+2-Octenal			2363895	C8 H14 O             	126.196							
+2-octynal							Aldehydes	Aliphatics				49
+2-Pentadecanone			2345280	C15 H30 O    	226.398							
+2-Pentylfuran			3777693	C9 H14 O      	138.207							
+2-Pentylpyridine			2294760	C10 H15 N                     	149.228							
+2-phenethyl acetate			103457	C10H12O2	164.2	0.1						
+2-Phenyl-2-butenal			4411896	C10 H10 O                	146.186							
+2-phenylethanol			60128	C8H10O	122.16	0.1						
+2-propanol			67630	C3H8O	60.1	60					68	
+2-propene-1-thiol			870235	C3H6S	74.14	120						
+2-sec-butylcyclohexanone			14765301	C10H18O	154.25							
+2-tert-butylcyclohexanone			1728467	C10H18O	154.25	0.24						
+2-Tridecanone			593088	C13 H26 O                     	198.345							
+2-Undecanol			1653301	C11 H24 O   	172.308							
+"2,2-(dithiodimethylene)difuran"			4437201	C10H10O2S2	226.32						
+"2,2,6-Trimethylcyclohexanone"			2408379	C9 H16 O                 	140.223						
+"2,3-butanedione"			431038	C4H6O2	86.09	50					
+"2,3-Diethyl-5-methylpyrazine"			18138040	C9 H14 N2       	150.221						
+"2,3-diethyl-5-methylpyrazine"				C9H14N2	150.22						
+"2,3-diethylpyrazine"			15707241	C8H12N2	136.19	0.7					99
+"2,3-hexanedione"			3848246	C6H10O2	114.14	9					
+"2,3-Pentanedione"			600146	C5 H8 O2	100.116						
+"2,3,10-mercaptopinane"			23832180	C10H18S	170.31						
+"2,3,5-Trimethylpyrazine"			14667551	C7 H10 N2         	122.168						
+"2,4-Dinitrotoluene, 97%"											93
+"2,4-Nonadienal                "			6750034	C9 H14 O  	138.207						
+"2,4-Octadienal (trans)"			5577446	C8 H12 O   	124.18						
+"2,4-Undecadienal "			13162464	C11 H18 O      	166.26						
+"2,4,5-Trimethyl-3-oxazoline"			22694968	C6 H11 N O         	113.158						
+"2,4,5-Trimethylthiazole"			13623115	C6 H9 N S      	127.208						
+"2,5-dimethylpyrazine"			123320	C6H8N2	108.14	3					102	
+"2,6-Dimethylpyrazine"			108509	C6 H8 N2    	108.141	1						
+"2,6-Dinitrotoluene,98%"											94	
+"2,6-lutidine"			108485	C7H9N	107.15	5						
+2Õ-hydroxyacetophenone			118934	C8H8O2	136.15	0.1						
+2(10)-Pinen-3-ol			5947364	C10 H16 O            	152.228							
+3-(methylmercapto)propionaldehyde			3268493	C4H8OS	104.17							
+3-(Methylthio)-1-propanol			505102	C4 H10 O S     	106.188							
+"3-acetyl-2,5-dimethylthiophene"			2530101	C8H10S	154.23	0.1						
+3-Butanedione 							Ketones	Aliphatics				70
+3-decanone			928803	C10H20O	156.27	0.15						
+3-ethylphenol			620177	C8H10O	122.16	0.1						
+3-ethylpyridine			536787	C7H9N	107.15	2						
+3-ethyltoluene							Hydrocarbons	Aromatics				21
+3-hexanol			623370	C6H14O	102.17	2.4						
+3-mercapto-1-propanol				C3H8S	92.16	3						
+3-methylbutanol			123513	C5H12O	88.15						
+3-methylbutyl 2-methylbutanoate			27625350	C10 H20 O2                 	172.265						
+3-methylcyclopentanone			1757422	C6H10O	98.14	4.4					
+3-methylindole			83341	C9H9N	131.17						
+3-nonanone			925780	C9H18O	142.24	0.4					82
+3-octanol			589980	C8H18O	130.23	0.34					
+3-octanone			108683	C8H16O	128.21	1					83
+3-Octyl acetate			4864613	C10 H20 O2          	172.265						
+3-pentanol			584021	C5H12O	88.15	7					
+3-pentanone			96220	C5H10O	86.13	30					54
+3-Penten-2-one			625332	C5 H8 O    	84.116						
+"3-Phenylpropyl Isovalerate,99%"											75
+"3,7-dimethyl-2,6-octadienenitrile"				C10H15N	149.23						
+"3,7,-dimethyl-2,6-octadienenitrile"			5146667	C10H15N	149.24						
+"4-allyl-1,2-dimethoxy-benzene"	eugenol methyl ether		93152	C11H14O2	178.23						
+"4-Allyl-2,6-dimethoxyphenol"			6627889	C11 H14 O3      	194.227						
+4-allylanisole	estragole		140670	C10H12O	148.2							
+4-bromobutyric acid			2623872	C4H7BrO2	167							
+4-carvomenthenol				C10 H18 O     	154.249	0.1						
+4-Chloro-2-methylphenoxyacetic acid			94746	C9H9ClO3	200.62							
+4-Cyanopyridine			100481	C6H4N2	104.11							
+4-Ethylbenzaldehyde			4748781	C9 H10 O         	134.175							
+4-ethylphenol			123079	C8H10O	122.16	0.1						
+4-heptanolide			105215	C7H12O	128.17							
+4-methyl-1-pentanol			626891						65.5593			
+4-Methyl-2-pentanone			108101	C6 H12 O         	100.156							
+4-Methyl-2-phenyl-2-pentenal			26643914	C12 H14 O         	174.239							
+4-Methyl-5-thiazoleethanol			137008	C6 H9 N O S        	143.208							
+4-methylanisole			104938	C8H10O	122.16	1.2						
+4-methylanisole												
+4-methylanisole							Ethers	Aromatics				16
+4-nonanol			5932796						73.8605			
+4-nonanone			4485090	C9H18O	142.24	0.4					
+4-octanone			589639	C8H16O	128.22	1.7					
+4-penten-1-ol			821090	77020-5mL	86.13	1.8					
+4-Thujanol			546792	C10 H18 O      	154.244						
+"4,5-Dimethylthiazole"			3581917	C5 H7 N S          	113.182						
+"4,5,6,7-Tetrahydro-3,6-dimethylbenzofuran"			494906	C10 H14 O     	150.218						
+5-Methyl-2-phenyl-2-hexenal			21834924	C13 H16 O          	188.266						
+5-methyl-3-heptanone			541855	C8H16O	128.21						
+5-nonanol			623938						86.8745		
+"5-Nonanone,98%"											80
+"5,6,7,8-Tetrahydroquinoxaline"			34413359	C8 H10 N2           	134.178						
+6-amyl-alpha-pyrone			27593233	C10H14O2	166.22						
+6-methyl-3-heptanone											
+6-methyl-5-hepten-2-one			110930	C8H14O	126.2	0.9					
+6-methylquinoline			91623	C10H9N	143.19	0.1					
+8-pentadecanone			818235						102.739		
+a-amyl cinnamaldehyde (cis+trans)			122407	C14H18O	202.29							
+a-amylcinnamaldehyde dimethyl acetal			91872	C16H24O2	248.36	0.01						
+a-hexyl cinnamaldehyde			101860	C15H20O	216.32	0.01						
+a-pinene			7785708	C10H16	136.23	2.5						
+a-terpinene			99865	C10H16	136.23							
+"a,b-Thujone"			76231760	C10H16O	152.23							
+acetaldehyde			75070	C2H4O	44.05	800						
+acetate							Esters Amyl	Aliphatics				62
+Acetoin			513860	C4 H8 O2       	88.105							
+Acetylpyrazine			22047252	C6 H6 N2 O  	122.125						98	
+acrolein			107028	C3H4O	56.06							
+allyl acetic acid			591800	C5H8O2	100.12	0.2						
+allyl benzene			300572	C9H10	118.18	2.6						
+allyl cinnamate			1866315	C12H12O2	188.22							
+allyl disulfide			2179579	C6H10S2	146.27	0.7						
+"Allyl Hexanoate,98%"											69	
+Allyl Nonanoate											67	
+Allyl Octanoate											11	
+allyl phenoxyacetate			7493745	C11H12O3	192.21	0.1						
+allyl phenylacetate			1797746	C11H12O2	176.21	0.1						
+"Allyl Priopionate,99%"											79	
+allyl sulfide			592881	C6H10S	114.21	6						
+Almond Extract											58	
+Alpha Phellandrene											66	
+alpha-Pinene			80568	C10 H16 	136.234	1						
+amyl butyrate			540181	C9H18O2	158.24	0.4						
+Amyl butyrate											63	
+amyl formate			638493	C6H12O2	116.16							
+anethole			4180238	C10H12O	148.2	0.1						
+Anise Exract											59	
+anisole			100663	C7H8O	108.14	3						
+Anisole							Ethers	Aromatics				13
+b-citronellol							Alcohols	Aliphatics				36
+Benzoic Acid			65850	C7 H6 O2	122.121							
+Benzothiazole			95169	C7 H5 N S       	135.187							
+benzyl acetate			140114	C9H12O2	150.17	0.1					56	
+benzyl ether			103504	C14H14O	198.26	0.1						
+Benzyl isocyanide			10340917	C8H7N	117.15							
+Benzyl isovalerate			103388	C12 H16 O2               	192.254						73	
+benzyl mercaptan			100538	C7H8S	124.2	0.4						
+benzyl salicylate			118581	C14H12O3	228.24	0.01						
+beta-Caryophyllene			87445	C15 H24   	204.351							
+beta-damascone			23726912	C13H20O	192.3							
+beta-Ionone			79776	C13H20O	192.3							
+Biphenyl			92524	C12H10	154.21							
+bis-methylthiomethane			1618264	C3H8S2	108.23	4						
+Borneol			507700	C10 H18 O            	154.249							
+butanol			71363	C4H10O	74.12	6						
+"Butyl Benzene,99%"											16
+butyl butyrate			109217	C8H16O2	144.21	1.5					
+butyl butyryllactate			7492708	C11H20O4	216.27	0.1					
+Butyl formate			592847	C5H10O2	102.14						
+Butyl heptanoate			5454284	C11 H22 O2                    	186.291						
+Butyl hexanoate			626824	C10 H20 O2          	172.265						
+Butyl isobutyrate			97870	C8 H16 O2             	144.211						
+Butyl isovalerate			109193	C9 H18 O2              	158.238						
+Butyl laurate			106183	C16 H32 O2   	256.424						
+butyl methyl ether			628284	C5H12O	88.15	110					
+Butyl valerate			591684	C9 H18 O2     	158.238						
+camphene			5794036	C10H16	136.23	2.5					28
+carvacrol			499752	C10H14O	150.22	0.1					57
+carvacryl ethyl ether			4732132	C12H18O	178.27						
+carveol			99489	C10H16O	152.23	0.1					
+Caryophyllene oxide			1139306	C15 H24 O   	220.35						
+cedryl acetate			77543	C17H28O2	264.4	0.01						
+"Cherry Extract, immitation"											46	
+cineole											17	
+cineole							Ethers	Aromatics				14
+cinnamaldehyde							Aldehydes	Aromatics				6
+Cinnamyl alcohol							Alcohols	Aromatics				1
+Cinnamylformate												
+Cinnamylformate							Esters	Aromatics				9
+cis-2-hexen-1-ol			928949	C6 H12 O        	100.15						92	
+cis-3-Hexen-1-yl acetate			3681718	C8 H14 O2                	142.196							
+cis-3-Hexenal			6789806	C6 H10 O       	98.143							
+cis-3-Hexenyl butyrate			16491364	C10 H18 O2      	170.249							
+cis-3-hexenyl formate			33467731	C7H12O2	128.17							
+cis-4-hepten-1-al			6728310	C7H12O	112.17							
+cis-Jasmone			488108	C11 H16 O      	164.244							
+cis-nerolidol			142507	C15H26O	222.37							
+Citral diethyl Acetal											77
+citronellal			106230	C10H18O	154.25	0.15					
+Citronellyl acetate			150845	C12 H22 O2       	198.302						
+crotonaldehyde			4170303	C4H6O	70.09						
+cuminaldehyde			122032	C10H12O	148.2						
+cyclobutanecarboxylic acid			3721957						71.795		
+Cyclohexane											36
+cyclohexanecarboxylic acid			98895	C7H12O2	128.17	0.1					
+cyclohexanol			108930	C6H12O	100.16	0.6					
+cyclohexanone			108941	C6H10O	98.14	2					
+Cyclooctane			292648	C8H16	112.21						
+cyclopentanecarboxylic acid			3400451						70.786		
+cyclopentanethiol			1679078	C5H10S	102.2						
+d-Piperitone			6091505	C10 H16 O             	152.233						
+d-Valerolactam			675207	C5H9NO	99.13						
+decalactone			100516	C7H8O	108.14	0.1					
+Decanoic acid			334485	C10 H20 O2             	172.265						
+decanol			112301	C10H22O	158.28	0.1					
+Decyl Alcohol											53
+delta-Decalactone			705862	C10 H18 O2           	170.249						
+delta-Dodecanolactone			713951	C12 H22 O2                 	198.302						
+delta-Octalactone			698760	C8 H14 O2    	142.196						
+delta-Tetradecalactone			2721224	C14 H26 O2   	226.355						
+delta-valerolactone			542289	C5H8O2	100.12	0.15					
+dicyclohexyl disulfide			2550405	C12H22S2	230.43						
+diethyl sebacate			110407	C14H26O	258.35	0.1					
+Diethyl succinate			123251	C8 H14 O4        	174.194						
+dihydrocoumarin			119846	C9H8O2	148.16	0.1					
+dihydrojasmone			1128081	C11H18O	166.26	0.1					
+Dimethyl methyl-phosphonate											101
+Dimethyl sulfone			67710	C2H6O2S	94.13						
+Dimethyl Sulfoxide (DMSO)											2
+"Dimethyl Sulfoxide, 99%"											2	
+dimethyl trisulfide			3658808	C2H6S3	126.26	0.75						
+dodecyl aldehyde							Aldehydes	Aliphatics				47
+ethanol				C2H5OH	46.07	62						
+Ethanolamine											51	
+Ethyl 3-hydroxyhexanoate			2305251	C8 H16 O3       	160.211							
+ethyl benzoate			93890	C9H10O2	150.17	0.12						
+ethyl caprate			110383	C12H24O2	200.32	0.1						
+ethyl formate			109949	C3H6O2	74.08							
+ethyl hexanoate							Esters Amyl	Aliphatics				64
+Ethyl isobutyrate			97621	C6 H12 O2                	116.158							
+Ethyl isovalerate			108645	C7 H14 O2                     	130.185							
+Ethyl lactate			97643	C5 H10 O3                  	118.131							
+Ethyl laurate			106332	C14 H28 O2           	228.371							
+ethyl nonanoate			123295	C11H22O2	186.29	0.1						
+Ethyl phenylacetate			101973	C10 H12 O2   	164.201							
+ethyl pyruvate			617356	C5H8O3	116.12	2						
+ethyl salicylate			118616	C9H10O3	166.17	125.2					44	
+ethyl trans-2-octenoate    			7367820	C10 H18 O2             	170.249							
+Ethyl undecanoate			627907	C13 H26 O2     	214.344							
+ethyl2-methylbutyrate			7452791	C7 H14 O2                 	130.185							
+Ethylbenzene											14	
+Ethylmethylpyrazine			13360640	C7 H10 N2              	122.168							
+Ethylpyrazine			13925003	C6 H8 N2   	108.141							
+eucalyptol			470826	C10H18O	154.25	0.1						
+eugenol							Alcohols	Aromatics				2
+eugenol			97530	C10H12O2	164.2	3					21	
+exo-Borneol                                         			124765	C10 H18 O    	154.249							
+farnesene			502614	C15H24	204.35							
+Formanilide			103708	C7H7NO	121.14							
+Furfuryl acetate			623176	C7 H8 O3        	140.137							
+Furfuryl alcohol			98000	C5 H6 O2                	98.1							
+furfuryl mercaptan			980202	C5H6OS	114.17							
+gamma-caprolactone			695067	C6H10O2	114.14							
+gamma-Dodecalactone			2305057	C12 H22 O2        	198.302							
+gamma-Nonanoic lactone			104610	C9 H16 O2         	156.222							
+Gamma-Octalactone			104507	C8 H14 O2 	142.196							
+gamma-Terpinene			99854	C10 H16         	136.234							
+gamma-Undecalactone			104676	C11 H20 O2     	184.275	1						
+gamma-Valerolactone			108292	C5 H8 O2      	100.116							
+geranyl acetate			16409442	C12H20O2	196.29	0.1						
+geranyl acetate							Esters	Aromatics				10
+geranyl acetone			3796701	C13H22O	194.31	0.1						
+Gluteraldehyde											9	
+Glycerol anyhydrous											103	
+guaiacol							Alcohols	Aromatics				3
+heptadecane			629787	C17H36	240.47	0.1						
+heptyl butyrate			5870939	C11H22O2	186.29							
+Heptyl cyanide							Other	Aliphatics				73
+heptyl-isobutyrate			2349135	C11H22O2	186.29							
+hexadecane			544763						97.8674			
+Hexyl 2-methylbutanoate			10032152	C11 H22 O2          	186.291							
+Hexyl 3-methylbutanoate			10032130	C11 H22 O2   	186.291							
+Hexyl butyrate			2639636	C10 H20 O2             	172.265							
+Hexyl formate			629334	C7 H14 O2    	130.185							
+Hexyl hexanoate			6378650	C12 H24 O2                    	200.318							
+Hexyl isobutyrate			2349077	C10 H20 O2        	172.265							
+Hexyl propionate			2445763	C9 H18 O2               	158.238						29	
+Indole			120729	C8 H7 N    	117.148	17						
+isoamyl formate			110452	C6H12O2	116.16	9						
+Isoamyl isobutyrate			2050013	C9 H18 O2                 	158.238							
+Isoamyl isovalerate			659701	C10 H20 O2            	172.265							
+Isoamyl octanoate			2035996	C13 H26 O2            	214.338							
+Isoamyl propionate			105680	C8 H16 O2              	144.208							
+isoamyl salicylate												
+isoamyl salicylate							Esters	Aromatics				11
+isobutyl acetate			110190	C6 H12 O2  	116.158							
+Isobutyl benzoate			120503	C11 H14 O2              	178.228							
+Isobutyl butyrate			539902	C8 H16 O2   	144.211							
+Isobutyl formate			542552	C5 H10 O2       	102.133							
+Isobutyl heptanoate			7779808	C11 H22 O2   	186.291							
+Isobutyl hexanoate			105793	C10 H20 O2           	172.265							
+isobutyl isobutyrate			97858	C8H16O2	144.21	4						
+isobutyraldehyde			78842	C4H8O	72.11	120	Aldehydes	Aliphatics				39
+isobutyric acid			79312	C4H8O2	88.11	1						
+Isopentylamine							Amines	Aliphatics				60
+isophorone			78591	C9H14O	138.21	0.1						
+Isopropyl acetate			108214	C5 H10 O2      	102.132							
+Isopropyl butyrate			638119	C7 H14 O2       	130.185							
+Isopropyl isovalerate			32665239	C8 H16 O2              	144.211							
+Isopulegol			89792	C10 H18 O    	154.249							
+isovaleraldehyde			590863	C5H10O	86.13	40						
+L-Turpentine			8002093	C10H16 (approx) 	136	4						
+Lactic acid			50215	C3H6O3	90.08							
+Lauric acid			143077	C12 H24 O2         	200.318							
+laurinaldehyde			112549	C12H24O	184.32	0.1						
+Lemon Extract											61	
+lilial												
+lilial							Aldehydes	Aromatics				8
+limonen							Hydrocarbons	Aromatics				23
+linalool			78706	C10H18O	154.25	0.1						
+linalool							Alcohols	Aliphatics				37
+Linalyl acetate			115957	C12 H20 O2 	196.286							
+linalyl formate												
+linalyl formate							Esters	Aromatics				12
+linalyl isovalerate			1118270	C15H26O2	238.37							
+lyral							Aldehydes	Aliphatics				52
+m-anisaldehyde			591311						83.7757			
+m-cresol			108394	C7H8O	108.14	0.15						
+m-Xylene			108383	C8H10	106.17							
+m-Xylene/Xylol											43	
+Maltol			118718	C6 H6 O3        	126.11							
+Mesitylene			108678	C9H12	120.19							
+Methanesulfonic Acid											104	
+Methoxybenzoic acid			586389	C8 H8 O3          	152.147							
+Methyl 2-furoate			611132	C6 H6 O3  	126.11	40						
+Methyl 2-methylbutyrate			868575	C6 H12 O2                	116.158							
+Methyl 3-hydroxyhexanoate			21188589	C7 H14 O3   	146.184							
+methyl acetate			79209	C3H6O2	74.08							
+methyl decanoate			110429	C11H22O2	186.29	0.1						
+methyl dihydrojasmonate			24851987	C13H22O3	226.31							
+methyl disulfide			624920	C2H6S2	94.2	20						
+methyl eugenol							Ethers	Aromatics				18
+methyl furfuryl disulfide			57500002		160.259							
+Methyl isobutyrate			547637	C5 H10 O2   	102.132							
+Methyl isovalerate			556241	C6 H12 O2 	116.158							
+methyl laurate			111820	C13H26O2	214.34	0.1						
+Methyl linolenate			301008	C19 H32 O2    	292.456							
+methyl myristate			124107	C15H30O2	242.4	0.1						
+Methyl nonanoate			1731846	C10 H20 O2    	172.265							
+methyl propionate			554121	C4H8O2	88.11	110						
+Methyl propyl disulfide			2179604	C4 H10 S2      	122.254							
+Methyl pyrrolyl ketone			1072839	C6 H7 N O         	109.126							
+Methyl sulfide			75183	C2 H6 S     	62.135							
+Methyl Vinyl Ketone			78944	C4H6O	70.09							
+methylbenzylamine			103673	C8H11N	121.18	0.65						
+Methylbutyl methylbutyrate			2445785	C10 H20 O2        	172.265							
+Methylfurfural			620020	C6 H6 O2   	110.111							
+Methylthiophencarboxaldehyde			13679704	C6 H6 O S   	126.177							
+Mint Extract											55A	
+musk ketone			81141	C14H8N2O5	294.3							
+myrcene			123353	C10H16	136.23	1.8					91	
+Myristic acid			544638	C14 H28 O2        	228.371							
+"n-Amyl Acetate,99%"											62	
+n-Amyl hexanoate			540078	C11 H22 O2                  	186.291							
+n-Amyl octanoate			638255	C13 H26 O2        	214.344							
+n-Butyl 2-methylbutyrate      			15706737	C9 H18 O2          	158.238							
+n-butyl alcohol							Alcohols	Aliphatics				27
+n-decane							Alkanes	Aliphatics				59
+n-Decyl acetate			112174	C12 H24 O2 	200.318							
+n-decyl alcohol							Alcohols	Aliphatics				33
+n-decyl aldehyde							Aldehydes	Aliphatics				45
+n-heptaldehyde							Aldehydes	Aliphatics				42
+n-heptyl alcohol							Alcohols	Aliphatics				30
+n-hexaldehyde							Aldehydes	Aliphatics				41
+n-hexyl alcohol							Alcohols	Aliphatics				29
+n-nonane							Alkanes	Aliphatics				58
+n-nonanoic acid							Acids	Aliphatics				56
+n-nonyl alcohol							Alcohols	Aliphatics				32
+n-nonyl aldehyde							Aldehydes	Aliphatics				44
+n-Octane							Alkanes	Aliphatics				57
+n-octanoic acid							Acids	Aliphatics				55
+n-octyl alcohol							Alcohols	Aliphatics				31
+n-octyl aldehyde							Aldehydes	Aliphatics				43
+n-pentyl alcohol							Alcohols	Aliphatics				28
+n-Propyl alcohol							Alcohols	Aliphatics				26
+n-Propyl mercaptan			107039	C3 H8 S        	76.162	122						
+n-valeraldehyde							Aldehydes	Aliphatics				40
+Nerol			106252	C10 H18 O               	154.249							
+Nerolidol			7212444	C15 H26 O      	222.366							
+Nonadienal											100	
+o-cresol			95487	C7H8O	108.14							
+o-tolyl isobutyrate			36438547	C11H14O2	178.23	0.05						
+o-Xylene/Xylol											40	
+Ocimene			13877913	C10 H16 	136.234							
+Octadecanamide			124265	C18H37NO	283.49							
+octyl acetate			112141	C10H20O2	172.26							
+octyl butyrate							Esters Amyl	Aliphatics				66
+octyl isobutyrate			109159	C12H24O2	200.32							
+octyl isovalerate							Esters Amyl	Aliphatics				67
+Oleic acid			112801	C18 H34 O2   	282.461	1176						
+Orange Extract											55	
+p-Anisic acid			100094	C8 H8 O3      	152.147							
+p-Cresol			106445	C7 H8 O               	108.138							
+p-cymene			99876	C10H14	134.22	1.2					20	
+p-Toluidine			106490	C7H9N	107.15	0.66						
+p-tolyl isobutyrate			103935	C11H14O2	307505	0.05						
+P-Xylene			106423	C8H10	106.17						4	
+"p,alpha,alpha-Trimethylbenzylalcohol"			1197019	C10 H14 O            	150.218							
+Palmitic acid			57103	C16 H32 O2        	256.424							
+para-Anisaldehyde							Aldehydes	Aromatics				4
+pelargonic acid			112050	C9H18O2	158.24	0.1						
+pentyl propionate			624544	C8H16O2	144.21	1						
+Perillaldehyde			2111753	C10 H14 O    	150.218							
+Perillyl acetate			15111963	C12 H18 O2    	194.27							
+phenethyl 2-methylbutyrate			24817514	C13 H18 O2               	206.281							
+phenethyl acetate			103457	C10H12O2	164.2	0.1						
+phenethyl amine			64040	C8H11N	121.18	0.3					35	
+Phenethyl butyrate			103526	C12 H16 O2      	192.254							
+Phenethyl hexanoate			6290375	C14 H20 O2    	220.307							
+Phenethyl isovalerate			140261	C13 H18 O2   	206.281							
+Phenethyl propionate			122703	C11 H14 O2   	178.228							
+phenethylamine							Amines	Aliphatics				61			
+phenetole			103731	C8H10O	122.16	1.5									
+phenol			108952	C6H6O	94.11	0.4									
+phenyl acetate			122792	C8H8O2	136.15	0.3									
+phenylacetaldehyde			122781	C8H8O	120.15	0.25									
+"Pineapple Extract, immitation"											50				
+Propion aldehyd							Aldehydes	Aliphatics				38			
+Propiophenone			93550	C9 H10 O	134.175										
+Propyl disulfide			629196	C6 H14 S2        	150.307										
+propyl formate                           			110747	C4 H8 O2  	88.105	100									
+Propyl heptanoate			7778872	C10 H20 O2       	172.265										
+Propyl hexanoate			626777	C9 H18 O2           	158.238										
+Propyl isobutyrate			644495	C7 H14 O2                	130.185										
+Propyl isovalerate			557006	C8 H16 O2      	144.211	0.1									
+Propylene															
+Propylene glycol			57556	C3 H8 O2    	76.094										
+pulegone			89827	C10H16O	152.23	0.1					
+Putrescine(Tetramethylenediamine)											96
+pyrrole			109977	C4H5N	67.09	9					
+Pyruvic acid			127173	C3 H4 O3        	88.062						
+quinoline			91225	C9H7N	129.16	0.1					
+quinoline				C9H7N	129.16	0.1					
+R-(-)-phenylbutyric acid			938794	C10H12O2	164.2	0.1					
+R(-)-2-Butanol			14898794	C4H10O	74.12						
+rum ether			8030895								
+S-(-)-2-methyl-1-butanol			1565806	C5H12O	88.15						
+S-(+)-2-heptanol				C7H16O	116.2						
+S-(+)-2-octanol				C8H18O	130.23						
+S-(+)-phenylbutyric acid				C10H12O2	168						
+S-methyl thiobutanoate			2432511	C5H10OS	118.2						
+"S,S dimethyl dithiocarbonate"						4.5					
+s(-)-a-methylbenzylamine			56210721	C16H19N	225.33						
+s(+)-2-hexanol			52019780	C6H14O	102.17						
+safranal			116267	C10H14o	150.22						
+Safrole			94597	C10H10O2	162.19						
+Salicylic acid			69727	C7 H6 O3                      	138.121						
+sassafrass oil											
+styrene			100425	C8H8	104.15						
+t-Amyl Alcohol/2methyl-2-Butanol											45
+Terpineol											97
+Terpinolene			586629	C10 H16  	136.234						
+tert-butyl propionate			20487405	C7H14O2	130.18	5					
+tert-butylacetic acid			1070833						78.5868		
+tetrahydrofurfuryl acetate			637649	C7H12O3	144.17						
+tetrahydrofurfuryl alcohol			97994	C5H10O2	102.13	0.2					
+tetrahydrofurfuryl propionate			637650	C8H14O3	158.19	0.2					
+theaspirane			36431728	C13H22O	194.31						
+Thiazole			288471	C3 H3 N S        	85.129						
+thioglycolic acid			68111	C2H4O2S	92.12	0.1															
+thiophenol			108985	C6H6S	110.18	1.5															
+toluene			108883	C7H8	92.14	22															
+"Toluene,anyhydrous,99.8%"											70										
+trans-2-Decenal			3913711	C10 H18 O        	154.249																
+trans-2-hexen-1-al			6728263	C6H10O	98.14	3.5															
+trans-2-hexen-1-ol			928950	C6H12O	100.16	0.6															
+trans-2-hexenyl acetate			2497189	C8 H14 O2      	142.196																
+trans-2-Methyl-2-butenal																					
+trans-2-nonen-1-al			18829566	C9H16O	140.22	0.2															
+trans-2-Octen-1-ol 			18409171	C8 H16 O      	128.212																
+trans-2-octenal							Aldehydes	Aliphatics				48									
+trans-2-penten-1-al			1576870	C5H8O	84.12	9															
+trans-2-tridecanal							Aldehydes	Aliphatics				50									
+trans-3-hexen-1-ol			928972	C6H12O	100.16	0.7															
+Trans-Amethole											71										
+trans-anethole			104461	C10H12O	148.2							
+"trans,cis-2,6-Nonadienal"			557482	C9 H14 O  	138.207							
+"trans,trans-2,4-Decadienal"			25152845	C10 H16 O      	152.233							
+"trans,trans-2,4-heptadienal"			4313035	C7H10O	110.15	0.7						
+"trans,trans-2,6-Nonadienal"			17587336	C9 H14 O    	138.207							
+Triacetin											105	
+tributyrin			60015	C15H26O6	302.36	0.1						
+triethyl citrate			77930	C12H20O7	276.28	0.1						
+"Trimethylamine,25-7wt% solution in water"											15	
+undecanal			112447	C11H22O	170.29	0.1						
+Undecanoic acid			112378	C11 H22 O2    	186.291							
+Undecyl alcohol			112425	C11 H24 O                 	172.308						76	
+undecylic aldehyde							Aldehydes	Aliphatics				46
+Valencene			4630073	C15 H24                     	204.351							
+vanillylacetone				C11H14O3	194.23	0.1						
+veratrole			91167	C8H10O2	138.16	0.24						
+verbenone			1196016	C10H14O	150.22	0.1
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
